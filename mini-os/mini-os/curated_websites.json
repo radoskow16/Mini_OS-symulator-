@@ -1,0 +1,702 @@
+[
+  {
+    "id": "extra_disneyplus",
+    "name": "Disney+",
+    "icon": "🎞️",
+    "url": "https://www.disneyplus.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_max",
+    "name": "Max",
+    "icon": "🎬",
+    "url": "https://www.max.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_primevideo",
+    "name": "Prime Video",
+    "icon": "📺",
+    "url": "https://www.primevideo.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_crunchyroll",
+    "name": "Crunchyroll",
+    "icon": "🍥",
+    "url": "https://www.crunchyroll.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_mubi",
+    "name": "MUBI",
+    "icon": "🎥",
+    "url": "https://mubi.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_plex",
+    "name": "Plex",
+    "icon": "▶️",
+    "url": "https://www.plex.tv",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_tubi",
+    "name": "Tubi",
+    "icon": "📽️",
+    "url": "https://tubitv.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_rakutentv",
+    "name": "Rakuten TV",
+    "icon": "🎞️",
+    "url": "https://rakuten.tv",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_viki",
+    "name": "Viki",
+    "icon": "🌸",
+    "url": "https://www.viki.com",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_plutotv",
+    "name": "Pluto TV",
+    "icon": "🪐",
+    "url": "https://pluto.tv",
+    "category": "Filmy i seriale"
+  },
+  {
+    "id": "extra_photopea",
+    "name": "Photopea",
+    "icon": "🖼️",
+    "url": "https://www.photopea.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_pixlr",
+    "name": "Pixlr",
+    "icon": "🎨",
+    "url": "https://pixlr.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_removebg",
+    "name": "remove.bg",
+    "icon": "✂️",
+    "url": "https://www.remove.bg",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_wallhaven",
+    "name": "Wallhaven",
+    "icon": "📷",
+    "url": "https://wallhaven.cc",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_pexels",
+    "name": "Pexels",
+    "icon": "🌄",
+    "url": "https://www.pexels.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_artvee",
+    "name": "Artvee",
+    "icon": "🖼️",
+    "url": "https://artvee.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_commons",
+    "name": "Wikimedia Commons",
+    "icon": "🌐",
+    "url": "https://commons.wikimedia.org",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_giphy",
+    "name": "GIPHY",
+    "icon": "🎞️",
+    "url": "https://giphy.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_flaticon",
+    "name": "Flaticon",
+    "icon": "🔣",
+    "url": "https://www.flaticon.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_googlefonts",
+    "name": "Google Fonts",
+    "icon": "🔤",
+    "url": "https://fonts.google.com",
+    "category": "Grafika i zdjęcia"
+  },
+  {
+    "id": "extra_govpl",
+    "name": "Gov.pl",
+    "icon": "🇵🇱",
+    "url": "https://www.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_podatki",
+    "name": "Podatki.gov.pl",
+    "icon": "🧾",
+    "url": "https://www.podatki.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_pacjent",
+    "name": "Pacjent.gov.pl",
+    "icon": "🏥",
+    "url": "https://pacjent.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_biznes",
+    "name": "Biznes.gov.pl",
+    "icon": "🏢",
+    "url": "https://www.biznes.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_zus",
+    "name": "ZUS",
+    "icon": "📄",
+    "url": "https://www.zus.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_ceidg",
+    "name": "CEIDG",
+    "icon": "📝",
+    "url": "https://aplikacja.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_geoportal",
+    "name": "Geoportal",
+    "icon": "🗺️",
+    "url": "https://www.geoportal.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_gus",
+    "name": "GUS",
+    "icon": "📊",
+    "url": "https://stat.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_uokik",
+    "name": "UOKiK",
+    "icon": "⚖️",
+    "url": "https://uokik.gov.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_nbp",
+    "name": "Narodowy Bank Polski",
+    "icon": "💰",
+    "url": "https://www.nbp.pl",
+    "category": "Polskie e-usługi"
+  },
+  {
+    "id": "extra_kwestiasmaku",
+    "name": "Kwestia Smaku",
+    "icon": "🍽️",
+    "url": "https://www.kwestiasmaku.com",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_aniagotuje",
+    "name": "AniaGotuje.pl",
+    "icon": "👩‍🍳",
+    "url": "https://aniagotuje.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_jadlonomia",
+    "name": "Jadłonomia",
+    "icon": "🥗",
+    "url": "https://www.jadlonomia.com",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_mojewypieki",
+    "name": "Moje Wypieki",
+    "icon": "🧁",
+    "url": "https://mojewypieki.com",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_kuchnialidla",
+    "name": "Kuchnia Lidla",
+    "icon": "🥘",
+    "url": "https://kuchnialidla.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_przyslijprzepis",
+    "name": "Prześlij Przepis",
+    "icon": "📖",
+    "url": "https://www.przyslijprzepis.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_mojegotowanie",
+    "name": "Moje Gotowanie",
+    "icon": "🍳",
+    "url": "https://www.mojegotowanie.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_smaker",
+    "name": "Smaker",
+    "icon": "🍲",
+    "url": "https://smaker.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_doradcasmaku",
+    "name": "Doradca Smaku",
+    "icon": "🧂",
+    "url": "https://www.doradcasmaku.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_przepisy",
+    "name": "Przepisy.pl",
+    "icon": "🥄",
+    "url": "https://www.przepisy.pl",
+    "category": "Gotowanie"
+  },
+  {
+    "id": "extra_wolnelektury",
+    "name": "Wolne Lektury",
+    "icon": "📚",
+    "url": "https://wolnelektury.pl",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_zpe",
+    "name": "Zintegrowana Platforma Edukacyjna",
+    "icon": "🎓",
+    "url": "https://zpe.gov.pl",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_futurelearn",
+    "name": "FutureLearn",
+    "icon": "🎓",
+    "url": "https://www.futurelearn.com",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_udacity",
+    "name": "Udacity",
+    "icon": "🧑‍💻",
+    "url": "https://www.udacity.com",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_freecodecamp",
+    "name": "freeCodeCamp",
+    "icon": "💻",
+    "url": "https://www.freecodecamp.org",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_codecademy",
+    "name": "Codecademy",
+    "icon": "👩‍💻",
+    "url": "https://www.codecademy.com",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_openstax",
+    "name": "OpenStax",
+    "icon": "📘",
+    "url": "https://openstax.org",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_doaj",
+    "name": "DOAJ",
+    "icon": "📑",
+    "url": "https://doaj.org",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_pubmed",
+    "name": "PubMed",
+    "icon": "🧬",
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_semanticscholar",
+    "name": "Semantic Scholar",
+    "icon": "🔬",
+    "url": "https://www.semanticscholar.org",
+    "category": "Nauka i edukacja"
+  },
+  {
+    "id": "extra_epodroznik",
+    "name": "e-podróżnik",
+    "icon": "🚌",
+    "url": "https://www.e-podroznik.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_koleo",
+    "name": "KOLEO",
+    "icon": "🚆",
+    "url": "https://koleo.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_nocowanie",
+    "name": "Nocowanie.pl",
+    "icon": "🛏️",
+    "url": "https://www.nocowanie.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_eholiday",
+    "name": "eHoliday",
+    "icon": "🏡",
+    "url": "https://www.eholiday.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_tanieloty",
+    "name": "Tanie-Loty.com.pl",
+    "icon": "✈️",
+    "url": "https://www.tanie-loty.com.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_seat61",
+    "name": "The Man in Seat 61",
+    "icon": "🚄",
+    "url": "https://www.seat61.com",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_railplanner",
+    "name": "Rail Planner",
+    "icon": "🚉",
+    "url": "https://www.raileurope.com",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_chopin",
+    "name": "Lotnisko Chopina",
+    "icon": "🛫",
+    "url": "https://www.lotnisko-chopina.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_polrail",
+    "name": "Polrail Service",
+    "icon": "🚆",
+    "url": "https://www.polrail.com",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_pasazer",
+    "name": "Portal Pasażera",
+    "icon": "🚉",
+    "url": "https://portalpasazera.pl",
+    "category": "Podróże"
+  },
+  {
+    "id": "extra_xkom",
+    "name": "x-kom",
+    "icon": "💻",
+    "url": "https://www.x-kom.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_morele",
+    "name": "Morele.net",
+    "icon": "🖥️",
+    "url": "https://www.morele.net",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_mediaexpert",
+    "name": "Media Expert",
+    "icon": "🔌",
+    "url": "https://www.mediaexpert.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_euro",
+    "name": "RTV EURO AGD",
+    "icon": "📺",
+    "url": "https://www.euro.com.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_decathlon",
+    "name": "Decathlon",
+    "icon": "⚽",
+    "url": "https://www.decathlon.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_leroymerlin",
+    "name": "Leroy Merlin",
+    "icon": "🛠️",
+    "url": "https://www.leroymerlin.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_castorama",
+    "name": "Castorama",
+    "icon": "🔨",
+    "url": "https://www.castorama.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_empikfoto",
+    "name": "Empik Foto",
+    "icon": "🖼️",
+    "url": "https://www.empikfoto.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_allegrolokalnie",
+    "name": "Allegro Lokalnie",
+    "icon": "📦",
+    "url": "https://allegrolokalnie.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_komputronik",
+    "name": "Komputronik",
+    "icon": "⌨️",
+    "url": "https://www.komputronik.pl",
+    "category": "Zakupy i sklepy"
+  },
+  {
+    "id": "extra_flashscore",
+    "name": "Flashscore",
+    "icon": "🏆",
+    "url": "https://www.flashscore.pl",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_livescore",
+    "name": "LiveScore",
+    "icon": "⚽",
+    "url": "https://www.livescore.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_transfermarkt",
+    "name": "Transfermarkt",
+    "icon": "💹",
+    "url": "https://www.transfermarkt.pl",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_eurosport",
+    "name": "Eurosport",
+    "icon": "🥇",
+    "url": "https://www.eurosport.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_sportpl",
+    "name": "Sport.pl",
+    "icon": "🏅",
+    "url": "https://www.sport.pl",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_formula1",
+    "name": "Formula 1",
+    "icon": "🏎️",
+    "url": "https://www.formula1.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_olympics",
+    "name": "Olympics",
+    "icon": "🥇",
+    "url": "https://olympics.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_nba",
+    "name": "NBA",
+    "icon": "🏀",
+    "url": "https://www.nba.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_uefa",
+    "name": "UEFA",
+    "icon": "⚽",
+    "url": "https://www.uefa.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_fifa",
+    "name": "FIFA",
+    "icon": "⚽",
+    "url": "https://www.fifa.com",
+    "category": "Sport"
+  },
+  {
+    "id": "extra_webex",
+    "name": "Webex",
+    "icon": "📹",
+    "url": "https://www.webex.com",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_googlemeet",
+    "name": "Google Meet",
+    "icon": "📞",
+    "url": "https://meet.google.com",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_messenger",
+    "name": "Messenger",
+    "icon": "💬",
+    "url": "https://www.messenger.com",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_threads",
+    "name": "Threads",
+    "icon": "🧵",
+    "url": "https://www.threads.net",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_peertube",
+    "name": "PeerTube",
+    "icon": "📼",
+    "url": "https://joinpeertube.org",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_mastodon",
+    "name": "Mastodon",
+    "icon": "🐘",
+    "url": "https://mastodon.social",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_signal",
+    "name": "Signal",
+    "icon": "🔒",
+    "url": "https://signal.org",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_element",
+    "name": "Element",
+    "icon": "💬",
+    "url": "https://element.io",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_whereby",
+    "name": "Whereby",
+    "icon": "🎥",
+    "url": "https://whereby.com",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_jitsi",
+    "name": "Jitsi Meet",
+    "icon": "📹",
+    "url": "https://meet.jit.si",
+    "category": "Komunikacja"
+  },
+  {
+    "id": "extra_producthunt",
+    "name": "Product Hunt",
+    "icon": "🚀",
+    "url": "https://www.producthunt.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_hackernews",
+    "name": "Hacker News",
+    "icon": "📰",
+    "url": "https://news.ycombinator.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_devto",
+    "name": "DEV Community",
+    "icon": "🧑‍💻",
+    "url": "https://dev.to",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_hashnode",
+    "name": "Hashnode",
+    "icon": "✍️",
+    "url": "https://hashnode.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_huggingface",
+    "name": "Hugging Face",
+    "icon": "🤗",
+    "url": "https://huggingface.co",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_kaggle",
+    "name": "Kaggle",
+    "icon": "📊",
+    "url": "https://www.kaggle.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_docker",
+    "name": "Docker Hub",
+    "icon": "🐳",
+    "url": "https://hub.docker.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_npm",
+    "name": "npm",
+    "icon": "📦",
+    "url": "https://www.npmjs.com",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_pypi",
+    "name": "PyPI",
+    "icon": "🐍",
+    "url": "https://pypi.org",
+    "category": "Technologia"
+  },
+  {
+    "id": "extra_digitalocean",
+    "name": "DigitalOcean",
+    "icon": "☁️",
+    "url": "https://www.digitalocean.com",
+    "category": "Technologia"
+  }
+]

@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import datetime
 
 from PySide6.QtCore import Qt, QTimer, QUrl, QUrlQuery, QSize, QProcess, QPropertyAnimation, QEasingCurve, QPointF, QRectF
-from PySide6.QtGui import QFont, QAction, QKeySequence, QPixmap, QPainter, QPen, QLinearGradient, QBrush, QPolygonF, QPainterPath, QColor, QRadialGradient, QIcon, QTransform, QSyntaxHighlighter, QTextCharFormat, QTextCursor
+from PySide6.QtGui import QFont, QAction, QKeySequence, QPixmap, QPainter, QPen, QLinearGradient, QBrush, QPolygonF, QPainterPath, QColor, QRadialGradient, QIcon, QTransform, QSyntaxHighlighter, QTextCharFormat, QTextCursor, QImage
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QStackedWidget, QVBoxLayout, QHBoxLayout, QGraphicsOpacityEffect,
     QGridLayout, QLabel, QPushButton, QLineEdit, QFrame, QMessageBox, QFileDialog,
@@ -52,7 +52,6 @@ PROFILE_STORAGE_ROOT = ROOT / "profile_data"
 PROFILE_WALLPAPERS_DIR = PROFILE_STORAGE_ROOT / "default" / "wallpapers"
 PROFILE_AVATARS_DIR = DATA / "profile_avatars"
 BUNDLED_WALLPAPERS_DIR = Path(__file__).resolve().parent / "wallpapers"
-BUNDLED_MINECRAFT_FILE = Path(__file__).resolve().parent / "MINECRAFT.html"
 
 def migrate_legacy_storage():
     if not LEGACY_ROOT.is_dir() or LEGACY_ROOT == ROOT:
@@ -83,7 +82,7 @@ APP_STORE = [
     {"id": "gemini", "name": "Gemini", "icon": "✨", "url": "https://gemini.google.com", "category": "Narzędzia"},
     {"id": "netflix", "name": "Netflix", "icon": "🎬", "url": "https://www.netflix.com", "category": "Wideo i muzyka"},
     {"id": "grypl", "name": "Gry.pl", "icon": "🎮", "url": "https://www.gry.pl", "category": "Gry"},
-    {"id": "minecraft", "name": "MINECRAFT", "icon": "⛏️", "local": True, "category": "Gry"},
+    {"id": "minecraft", "name": "MINECRAFT", "icon": "⛏️", "url": "https://eaglercraft.playclassicgame.com/games/26.3/hicraft_26.3.html?v=20261030-03", "category": "Gry"},
     {"id": "whatsapp", "name": "WhatsApp", "icon": "💬", "url": "https://web.whatsapp.com", "category": "Społeczności"},
 ]
 ADDITIONAL_WEBSITES = [
@@ -238,6 +237,53 @@ for folder in (ROOT, DATA, PHOTOS, SESSIONS):
     folder.mkdir(parents=True, exist_ok=True)
 
 WALLPAPER_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".gif", ".tif", ".tiff"}
+MAX_PROFILE_WALLPAPER_BYTES = 5 * 1024 * 1024
+
+def profile_wallpaper_bytes(directory=None):
+    directory = Path(directory or PROFILE_WALLPAPERS_DIR)
+    if not directory.is_dir():
+        return 0
+    return sum(
+        path.stat().st_size for path in directory.iterdir()
+        if path.is_file() and path.suffix.lower() in WALLPAPER_EXTENSIONS
+    )
+
+def save_compressed_wallpaper(source, destination, available_bytes):
+    """Save a wallpaper copy under the storage budget as a scaled JPEG."""
+    source = Path(source)
+    destination = Path(destination)
+    if available_bytes < 32 * 1024:
+        return False
+    pixmap = QPixmap(str(source))
+    if pixmap.isNull():
+        return False
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    fd, temporary_name = tempfile.mkstemp(prefix=".wallpaper_", suffix=".jpg", dir=str(destination.parent))
+    os.close(fd)
+    temporary = Path(temporary_name)
+    try:
+        for max_dimension in (1920, 1600, 1280, 1024, 800):
+            scaled = pixmap.scaled(
+                QSize(max_dimension, max_dimension),
+                Qt.AspectRatioMode.KeepAspectRatio,
+                Qt.TransformationMode.SmoothTransformation,
+            )
+            image = scaled.toImage().convertToFormat(QImage.Format.Format_RGB32)
+            for quality in (86, 76, 66, 56, 46):
+                if not image.save(str(temporary), "JPEG", quality):
+                    return False
+                if temporary.stat().st_size <= available_bytes:
+                    os.replace(temporary, destination)
+                    return True
+        return False
+    except OSError:
+        return False
+    finally:
+        try:
+            temporary.unlink(missing_ok=True)
+        except OSError:
+            pass
 
 def install_builtin_wallpapers():
     WALLPAPERS_DIR.mkdir(parents=True, exist_ok=True)
@@ -300,7 +346,7 @@ UI_EN_TRANSLATIONS = {
     "Sprawdzanie repozytorium GitHub przy uruchomieniu.": "Checking the GitHub repository at startup.",
     "Sprawdź aktualizacje": "Check for updates",
     "Aktualizuj": "Update", "Sprawdzam GitHub…": "Checking GitHub…",
-    "Dostępnych jest 100 dodatkowych języków. Tłumaczenia interfejsu są obecnie dostępne po angielsku i polsku; pozostałe języki używają angielskiego interfejsu.": "100 additional languages are available. The interface is currently translated into English and Polish; other selections use the English interface.",
+    "Dostępne języki interfejsu: polski i angielski.": "Available interface languages: Polish and English.",
     "Nie skonfigurowano serwera wydań mini-OS, więc aplikacja nie może automatycznie sprawdzić nowszej wersji.": "No mini-OS release server is configured, so the app cannot check for a newer version automatically.",
     "Tło i motyw": "Wallpaper & Theme", "Motyw systemu": "System appearance",
     "Jasny": "Light", "Ciemny": "Dark", "Krótka animacja uruchamiania": "Startup animation",
@@ -334,33 +380,6 @@ UI_EN_TRANSLATIONS = {
     "mini_store": "mini_store", "Otwórz": "Open", "Zapisz": "Save", "Anuluj": "Cancel",
 }
 
-ADDITIONAL_LANGUAGES = [
-    ("af", "Afrikaans"), ("sq", "Shqip"), ("am", "አማርኛ"), ("ar", "العربية"),
-    ("hy", "Հայերեն"), ("az", "Azərbaycan"), ("eu", "Euskara"), ("be", "Беларуская"),
-    ("bn", "বাংলা"), ("bs", "Bosanski"), ("bg", "Български"), ("ca", "Català"),
-    ("ceb", "Cebuano"), ("zh", "中文"), ("co", "Corsu"), ("hr", "Hrvatski"),
-    ("cs", "Čeština"), ("da", "Dansk"), ("nl", "Nederlands"), ("eo", "Esperanto"),
-    ("et", "Eesti"), ("fi", "Suomi"), ("fr", "Français"), ("gl", "Galego"),
-    ("ka", "ქართული"), ("de", "Deutsch"), ("el", "Ελληνικά"), ("gu", "ગુજરાતી"),
-    ("ht", "Kreyòl ayisyen"), ("ha", "Hausa"), ("haw", "ʻŌlelo Hawaiʻi"), ("he", "עברית"),
-    ("hi", "हिन्दी"), ("hu", "Magyar"), ("is", "Íslenska"), ("ig", "Igbo"),
-    ("id", "Bahasa Indonesia"), ("ga", "Gaeilge"), ("it", "Italiano"), ("ja", "日本語"),
-    ("jv", "Basa Jawa"), ("kn", "ಕನ್ನಡ"), ("kk", "Қазақша"), ("km", "ខ្មែរ"),
-    ("rw", "Kinyarwanda"), ("ko", "한국어"), ("ku", "Kurdî"), ("ky", "Кыргызча"),
-    ("lo", "ລາວ"), ("la", "Latina"), ("lv", "Latviešu"), ("lt", "Lietuvių"),
-    ("lb", "Lëtzebuergesch"), ("mk", "Македонски"), ("mg", "Malagasy"), ("ms", "Bahasa Melayu"),
-    ("ml", "മലയാളം"), ("mt", "Malti"), ("mi", "Māori"), ("mr", "मराठी"),
-    ("mn", "Монгол"), ("my", "မြန်မာ"), ("ne", "नेपाली"), ("no", "Norsk"),
-    ("ny", "Chichewa"), ("ps", "پښتو"), ("fa", "فارسی"), ("pt", "Português"),
-    ("pa", "ਪੰਜਾਬੀ"), ("ro", "Română"), ("ru", "Русский"), ("sm", "Gagana Samoa"),
-    ("gd", "Gàidhlig"), ("sr", "Српски"), ("st", "Sesotho"), ("sn", "chiShona"),
-    ("sd", "سنڌي"), ("si", "සිංහල"), ("sk", "Slovenčina"), ("sl", "Slovenščina"),
-    ("so", "Soomaali"), ("es", "Español"), ("su", "Basa Sunda"), ("sw", "Kiswahili"),
-    ("sv", "Svenska"), ("tl", "Tagalog"), ("tg", "Тоҷикӣ"), ("ta", "தமிழ்"),
-    ("te", "తెలుగు"), ("th", "ไทย"), ("tr", "Türkçe"), ("uk", "Українська"),
-    ("ur", "اردو"), ("uz", "Oʻzbekcha"), ("vi", "Tiếng Việt"), ("cy", "Cymraeg"),
-    ("xh", "isiXhosa"), ("yi", "ייִדיש"), ("yo", "Yorùbá"), ("zu", "isiZulu"),
-]
 BUILTIN_WALLPAPERS = [
     ("Domyślne tło", "default"),
     ("Zorza polarna", "custom:01-aurora.png"),
@@ -2332,13 +2351,6 @@ class MiniOS(QMainWindow):
         if app["id"] in self.installed_apps():
             self.launch_store_app(app)
             return
-        apps_dir = profile_storage_dir(self.active_profile_id) / "apps"
-        apps_dir.mkdir(parents=True, exist_ok=True)
-        if app.get("local"):
-            if not BUNDLED_MINECRAFT_FILE.is_file():
-                QMessageBox.warning(self, "mini_store", "Nie znaleziono dołączonego pliku MINECRAFT.html.")
-                return
-            shutil.copy2(BUNDLED_MINECRAFT_FILE, apps_dir / "MINECRAFT.html")
         installed = self.installed_apps()
         installed.append(app["id"])
         write_json(self.installed_apps_path(), {"installed": installed})
@@ -2372,14 +2384,7 @@ class MiniOS(QMainWindow):
             self.settings["browser_last_app"] = app["id"]
             self.persist_profiles()
         self.app_bar_label.setText(app["name"])
-        if app.get("local"):
-            path = profile_storage_dir(self.active_profile_id) / "apps" / "MINECRAFT.html"
-            if not path.is_file():
-                QMessageBox.warning(self, app["name"], "Plik gry nie jest zainstalowany.")
-                return
-            self.app_browser.setUrl(QUrl.fromLocalFile(str(path)))
-        else:
-            self.app_browser.setUrl(QUrl(app["url"]))
+        self.app_browser.setUrl(QUrl(app["url"]))
         self.show_page("installed_app_view")
 
     def make_office(self):
@@ -3052,13 +3057,11 @@ class MiniOS(QMainWindow):
         self.language_combo = QComboBox()
         self.language_combo.addItem("English", "en")
         self.language_combo.addItem("Polski", "pl")
-        for language_code, language_name in ADDITIONAL_LANGUAGES:
-            self.language_combo.addItem(language_name, language_code)
         language_index = self.language_combo.findData(self.settings.get("language", "en"))
         self.language_combo.setCurrentIndex(language_index if language_index >= 0 else 0)
         self.language_combo.currentIndexChanged.connect(self.change_interface_language)
         lay.addWidget(self.language_combo)
-        language_note = QLabel("Dostępnych jest 100 dodatkowych języków. Tłumaczenia interfejsu są obecnie dostępne po angielsku i polsku; pozostałe języki używają angielskiego interfejsu.")
+        language_note = QLabel("Dostępne języki interfejsu: polski i angielski.")
         language_note.setWordWrap(True)
         language_note.setStyleSheet("color:#aab4ca;")
         lay.addWidget(language_note)
@@ -3777,13 +3780,18 @@ class MiniOS(QMainWindow):
             if not fingerprint:
                 QMessageBox.warning(self, "Wybór tapety", "Nie udało się odczytać wybranego obrazu.")
                 return
-            filename = f"gallery_{fingerprint[:20]}{source.suffix.lower()}"
+            filename = f"gallery_{fingerprint[:20]}.jpg"
             wallpaper_path = PROFILE_WALLPAPERS_DIR / filename
             if not wallpaper_path.exists():
-                try:
-                    shutil.copy2(source, wallpaper_path)
-                except OSError as error:
-                    QMessageBox.warning(self, "Wybór tapety", f"Nie udało się zapisać tapety:\n{error}")
+                current_bytes = profile_wallpaper_bytes()
+                available_bytes = MAX_PROFILE_WALLPAPER_BYTES - current_bytes
+                if not save_compressed_wallpaper(source, wallpaper_path, available_bytes):
+                    QMessageBox.warning(
+                        self,
+                        "Limit miejsca na tapety",
+                        "Nie udało się zmieścić obrazu w limicie 5 MB dla własnych tapet tego profilu. "
+                        "Usuń starszą tapetę albo wybierz mniejszy obraz.",
+                    )
                     return
 
         wallpaper_id = f"custom:{wallpaper_path.name}"
