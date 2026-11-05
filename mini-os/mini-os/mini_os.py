@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # mini-os — minimalistyczne środowisko desktopowe dla macOS
 # Wymaga: PySide6, PySide6-WebEngine, opencv-python
-import sys, os, json, random, time, shutil, hashlib, uuid, csv, re, platform, shlex, subprocess, contextlib, traceback, io, zipfile, tempfile
+import sys, os, json, random, time, shutil, hashlib, uuid, csv, re, platform, shlex, subprocess, contextlib, traceback, io, zipfile, tempfile, inspect
 import weakref
 from collections import OrderedDict
 from pathlib import Path
@@ -242,6 +242,7 @@ BUILTIN_DESKTOP_APPS = [
     {"id": "gallery", "name": "Galeria", "icon": "🖼", "color": "#343071", "page": "gallery"},
     {"id": "calculator", "name": "Kalkulator", "icon": "＋", "color": "#174d61", "page": "calculator"},
     {"id": "voice_recorder", "name": "Dyktafon", "icon": "🎙️", "color": "#843b59", "page": "voice_recorder"},
+    {"id": "presentations", "name": "Prezentacje", "icon": "📽️", "color": "#6a3f78", "page": "presentation"},
 ]
 for folder in (ROOT, DATA, PHOTOS, SESSIONS):
     folder.mkdir(parents=True, exist_ok=True)
@@ -332,6 +333,7 @@ USER_FILE = DATA / "user.json"
 PROFILES_FILE = DATA / "profiles.json"
 UPDATE_STATE_FILE = DATA / "github_update_state.json"
 UPDATE_REPOSITORY = "radoskow16/Mini_OS-symulator-"
+UPDATE_SOURCE_PATH = "mini-os/mini-os"
 
 DEFAULT_SETTINGS = {
     "accent": "#5b8cff",
@@ -393,6 +395,10 @@ UI_EN_TRANSLATIONS = {
     "Gotowy do nagrywania": "Ready to record", "Nagrywanie…": "Recording…",
     "Nagrywanie wstrzymane": "Recording paused", "Nagranie zapisane w folderze Nagrania": "Recording saved in Recordings",
     "Pliki są zapisywane w folderze Nagrania tego profilu.": "Files are saved in this profile’s Recordings folder.",
+    "Prezentacje": "Presentations", "Dodaj slajd": "Add slide", "Usuń slajd": "Delete slide",
+    "Tytuł slajdu": "Slide title", "Treść slajdu…": "Slide text…", "Dodaj obraz": "Add image",
+    "Usuń obraz": "Remove image", "Pokaż prezentację": "Play slideshow", "Otwórz prezentację": "Open presentation",
+    "Zapisz prezentację": "Save presentation", "Nowa prezentacja": "New presentation", "Brak obrazu": "No image",
     "mini_store": "mini_store", "Otwórz": "Open", "Zapisz": "Save", "Anuluj": "Cancel",
 }
 
@@ -1459,6 +1465,7 @@ class MiniOS(QMainWindow):
         self.make_profile_picker()
         self.make_profile_crop_page()
         self.make_calculator()
+        self.make_presentation()
         self.make_paint()
         self.make_paint_gallery()
         self._start_return_page = "home"
@@ -2411,6 +2418,214 @@ class MiniOS(QMainWindow):
         self.app_bar_label.setText(app["name"])
         self.app_browser.setUrl(QUrl(app["url"]))
         self.show_page("installed_app_view")
+
+    def make_presentation(self):
+        _page, root = self.page("presentation")
+        root.addLayout(self.title_row("Prezentacje"))
+        toolbar = QHBoxLayout()
+        new_button = QPushButton("Nowa prezentacja")
+        new_button.clicked.connect(self.presentation_new)
+        open_button = QPushButton("Otwórz prezentację")
+        open_button.clicked.connect(self.presentation_open)
+        save_button = QPushButton("Zapisz prezentację")
+        save_button.setObjectName("accent")
+        save_button.clicked.connect(self.presentation_save)
+        show_button = QPushButton("▶  Pokaż prezentację")
+        show_button.clicked.connect(self.presentation_show_slideshow)
+        for button in (new_button, open_button, save_button, show_button):
+            toolbar.addWidget(button)
+        toolbar.addStretch(1)
+        root.addLayout(toolbar)
+
+        workspace = QHBoxLayout()
+        side = QVBoxLayout()
+        self.office_slide_list = QListWidget()
+        self.office_slides = [{"title": "Slajd 1", "body": "", "image": None}]
+        self.office_slide_list.addItem("Slajd 1")
+        self.office_slide_list.setCurrentRow(0)
+        slide_actions = QHBoxLayout()
+        add_slide = QPushButton("＋  Dodaj slajd")
+        add_slide.clicked.connect(self.office_add_slide)
+        delete_slide = QPushButton("−  Usuń slajd")
+        delete_slide.clicked.connect(self.office_delete_slide)
+        slide_actions.addWidget(add_slide)
+        slide_actions.addWidget(delete_slide)
+        side.addWidget(self.office_slide_list, 1)
+        side.addLayout(slide_actions)
+        workspace.addLayout(side, 1)
+
+        editor = QVBoxLayout()
+        self.office_slide_title = QLineEdit("Slajd 1")
+        self.office_slide_title.setPlaceholderText("Tytuł slajdu")
+        self.office_slide_title.setStyleSheet("font-size:24px; font-weight:600;")
+        self.office_slide_title.textChanged.connect(self.office_update_slide)
+        self.office_slide_body = QTextEdit()
+        self.office_slide_body.setPlaceholderText("Treść slajdu…")
+        self.office_slide_body.setStyleSheet("font-size:19px;")
+        self.office_slide_body.textChanged.connect(self.office_update_slide)
+        editor.addWidget(self.office_slide_title)
+        editor.addWidget(self.office_slide_body, 1)
+        image_actions = QHBoxLayout()
+        add_image = QPushButton("＋  Dodaj obraz")
+        add_image.clicked.connect(self.presentation_add_image)
+        remove_image = QPushButton("Usuń obraz")
+        remove_image.clicked.connect(self.presentation_remove_image)
+        image_actions.addWidget(add_image)
+        image_actions.addWidget(remove_image)
+        image_actions.addStretch(1)
+        editor.addLayout(image_actions)
+        self.office_slide_image = QLabel("Brak obrazu")
+        self.office_slide_image.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.office_slide_image.setMinimumHeight(100)
+        self.office_slide_image.setMaximumHeight(220)
+        self.office_slide_image.setStyleSheet("background:#0b0e15; border:1px solid #30394d; border-radius:10px; color:#aab4ca;")
+        editor.addWidget(self.office_slide_image)
+        workspace.addLayout(editor, 3)
+        self.office_slide_list.currentRowChanged.connect(self.office_select_slide)
+        root.addLayout(workspace, 1)
+        self.presentation_status = QLabel("Prezentacje są zapisywane w Dokumentach tego profilu.")
+        self.presentation_status.setStyleSheet("color:#aab4ca;")
+        root.addWidget(self.presentation_status)
+
+    def presentation_new(self):
+        self.office_slides = [{"title": "Slajd 1", "body": "", "image": None}]
+        self.office_slide_list.clear()
+        self.office_slide_list.addItem("Slajd 1")
+        self.office_slide_list.setCurrentRow(0)
+        self.office_slide_title.setText("Slajd 1")
+        self.office_slide_body.clear()
+        self.office_refresh_slide_image()
+        self.presentation_status.setText("Utworzono nową prezentację.")
+
+    def presentation_open(self):
+        documents = profile_user_directories(self.active_profile_id)["documents"]
+        filename, _ = QFileDialog.getOpenFileName(
+            self, "Otwórz prezentację", str(documents), "Prezentacje mini-OS (*.json)"
+        )
+        if not filename:
+            return
+        try:
+            data = json.loads(Path(filename).read_text(encoding="utf-8"))
+            slides = data.get("slides", []) if isinstance(data, dict) else []
+            self.office_slides = [
+                {"title": str(slide.get("title", "Slajd")),
+                 "body": str(slide.get("body", "")),
+                 "image": slide.get("image") if isinstance(slide.get("image"), str) else None}
+                for slide in slides if isinstance(slide, dict)
+            ]
+            if not self.office_slides:
+                self.office_slides = [{"title": "Slajd 1", "body": "", "image": None}]
+            self.office_slide_list.clear()
+            for index, slide in enumerate(self.office_slides, 1):
+                self.office_slide_list.addItem(slide["title"] or f"Slajd {index}")
+            self.office_slide_list.setCurrentRow(0)
+            self.office_select_slide(0)
+            self.presentation_status.setText(f"Otwarto: {Path(filename).name}")
+        except (OSError, ValueError, TypeError) as error:
+            QMessageBox.warning(self, "Prezentacje", f"Nie udało się otworzyć pliku: {error}")
+
+    def presentation_save(self):
+        self.office_current_slides()
+        documents = profile_user_directories(self.active_profile_id)["documents"]
+        filename, _ = QFileDialog.getSaveFileName(
+            self, "Zapisz prezentację", str(documents / "Prezentacja.json"),
+            "Prezentacje mini-OS (*.json)",
+        )
+        if not filename:
+            return
+        path = Path(filename)
+        if path.suffix.lower() != ".json":
+            path = path.with_suffix(".json")
+        try:
+            path.write_text(json.dumps({"slides": self.office_slides}, ensure_ascii=False, indent=2), encoding="utf-8")
+            self.presentation_status.setText(f"Zapisano: {path.name}")
+        except OSError as error:
+            QMessageBox.warning(self, "Prezentacje", f"Nie udało się zapisać pliku: {error}")
+
+    def presentation_add_image(self):
+        filename, _ = QFileDialog.getOpenFileName(
+            self, "Wybierz obraz slajdu", str(profile_user_directories(self.active_profile_id)["pictures"]),
+            "Obrazy (*.png *.jpg *.jpeg *.webp *.bmp *.gif)",
+        )
+        if not filename:
+            return
+        row = self.office_slide_list.currentRow()
+        if row < 0:
+            return
+        source = Path(filename)
+        images_dir = profile_storage_dir(self.active_profile_id) / "apps" / "presentations" / "images"
+        images_dir.mkdir(parents=True, exist_ok=True)
+        destination = images_dir / f"{uuid.uuid4().hex[:8]}_{source.name}"
+        try:
+            shutil.copy2(source, destination)
+            self.office_current_slides()
+            self.office_slides[row]["image"] = str(destination)
+            self.office_refresh_slide_image()
+        except OSError as error:
+            QMessageBox.warning(self, "Prezentacje", f"Nie udało się dodać obrazu: {error}")
+
+    def presentation_remove_image(self):
+        row = self.office_slide_list.currentRow()
+        if 0 <= row < len(self.office_slides):
+            self.office_slides[row]["image"] = None
+            self.office_refresh_slide_image()
+
+    def presentation_show_slideshow(self):
+        self.office_current_slides()
+        slides = [dict(slide) for slide in self.office_slides]
+        if not slides:
+            return
+        dialog = QDialog(self)
+        dialog.setWindowFlags(Qt.WindowType.FramelessWindowHint)
+        dialog.setStyleSheet("QDialog { background:#080a0f; color:#f4f6fb; } QPushButton { padding:10px 18px; }")
+        layout = QVBoxLayout(dialog)
+        title = QLabel()
+        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        title.setStyleSheet("font-size:38px; font-weight:700;")
+        body = QLabel()
+        body.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        body.setWordWrap(True)
+        body.setStyleSheet("font-size:24px;")
+        image = QLabel()
+        image.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        image.setScaledContents(True)
+        layout.addStretch(1)
+        layout.addWidget(title)
+        layout.addWidget(body)
+        layout.addWidget(image, 3)
+        layout.addStretch(1)
+        controls = QHBoxLayout()
+        previous = QPushButton("←  Poprzedni")
+        next_slide = QPushButton("Następny  →")
+        close = QPushButton("Zakończ pokaz")
+        controls.addWidget(previous)
+        controls.addStretch(1)
+        controls.addWidget(close)
+        controls.addStretch(1)
+        controls.addWidget(next_slide)
+        layout.addLayout(controls)
+        current = [0]
+
+        def render_slide():
+            slide = slides[current[0]]
+            title.setText(slide.get("title", ""))
+            body.setText(slide.get("body", ""))
+            pixmap = QPixmap(slide.get("image") or "")
+            image.setPixmap(pixmap.scaled(
+                QSize(max(320, dialog.width() - 100), max(180, dialog.height() // 2)),
+                Qt.AspectRatioMode.KeepAspectRatio,
+                Qt.TransformationMode.SmoothTransformation,
+            ) if not pixmap.isNull() else QPixmap())
+            image.setVisible(not pixmap.isNull())
+            previous.setEnabled(current[0] > 0)
+            next_slide.setEnabled(current[0] < len(slides) - 1)
+
+        previous.clicked.connect(lambda: (current.__setitem__(0, max(0, current[0] - 1)), render_slide()))
+        next_slide.clicked.connect(lambda: (current.__setitem__(0, min(len(slides) - 1, current[0] + 1)), render_slide()))
+        close.clicked.connect(dialog.accept)
+        render_slide()
+        dialog.showFullScreen()
+        dialog.exec()
 
     def make_office(self):
         _page, root = self.page("office")
@@ -3479,18 +3694,8 @@ class MiniOS(QMainWindow):
             self.set_update_status("Repozytorium nie zwróciło informacji o wersji.", "The repository returned no version information.")
             return
         self.latest_update_sha = latest
-        installed = read_json(UPDATE_STATE_FILE, {})
-        installed_sha = installed.get("commit") if isinstance(installed, dict) else None
-        if installed_sha == latest:
-            self.update_check_pending = False
-            self.set_update_status(
-                f"Mini-OS jest aktualny. Wersja GitHub: {latest[:7]}.",
-                f"mini-OS is up to date. GitHub version: {latest[:7]}.",
-            )
-            self.update_install_button.setEnabled(False)
-            return
         request = QNetworkRequest(QUrl(
-            f"https://api.github.com/repos/{UPDATE_REPOSITORY}/contents/mini_os.py?ref={latest}"
+            f"https://api.github.com/repos/{UPDATE_REPOSITORY}/contents/{UPDATE_SOURCE_PATH}/mini_os.py?ref={latest}"
         ))
         request.setRawHeader(b"Accept", b"application/vnd.github+json")
         request.setRawHeader(b"User-Agent", b"mini-os-updater")
@@ -3585,10 +3790,11 @@ class MiniOS(QMainWindow):
         replaced = []
         try:
             with zipfile.ZipFile(io.BytesIO(archive_data)) as archive:
-                candidates = [name for name in archive.namelist() if name.endswith("/mini_os.py") or name == "mini_os.py"]
+                expected_suffix = f"/{UPDATE_SOURCE_PATH.strip('/')}/mini_os.py"
+                candidates = [name for name in archive.namelist() if name.endswith(expected_suffix)]
                 if not candidates:
-                    raise RuntimeError("Archiwum GitHub nie zawiera mini_os.py.")
-                entry = min(candidates, key=len)
+                    raise RuntimeError(f"Archiwum GitHub nie zawiera {UPDATE_SOURCE_PATH}/mini_os.py.")
+                entry = candidates[0]
                 prefix = entry.rsplit("/", 1)[0] if "/" in entry else ""
                 for member in archive.infolist():
                     name = member.filename
@@ -3608,6 +3814,7 @@ class MiniOS(QMainWindow):
                     destination.write_bytes(archive.read(member))
             if not (stage_source / "mini_os.py").is_file():
                 raise RuntimeError("Nie znaleziono głównego pliku programu w archiwum.")
+            self.patch_downloaded_updater(stage_source / "mini_os.py")
             backup_root.mkdir()
             for source in stage_source.rglob("*"):
                 if not source.is_file():
@@ -3643,6 +3850,45 @@ class MiniOS(QMainWindow):
             raise
         finally:
             shutil.rmtree(stage_root, ignore_errors=True)
+
+    def patch_downloaded_updater(self, script_path):
+        """Keep future updates reading the newest project folder in this repository."""
+        source = script_path.read_text(encoding="utf-8")
+        if "import inspect" not in source:
+            source = source.replace("import sys, os,", "import sys, inspect, os,", 1)
+        repository_line = f'UPDATE_REPOSITORY = "{UPDATE_REPOSITORY}"'
+        if "UPDATE_SOURCE_PATH =" not in source and repository_line in source:
+            source = source.replace(
+                repository_line,
+                repository_line + f'\nUPDATE_SOURCE_PATH = "{UPDATE_SOURCE_PATH}"',
+                1,
+            )
+        source = source.replace(
+            'contents/mini_os.py?ref={latest}',
+            'contents/{UPDATE_SOURCE_PATH}/mini_os.py?ref={latest}',
+        )
+        source = source.replace(
+            "if installed_sha == latest:",
+            "if False and installed_sha == latest:",
+        )
+        old_candidates = 'candidates = [name for name in archive.namelist() if name.endswith("/mini_os.py") or name == "mini_os.py"]'
+        new_candidates = 'expected_suffix = f"/{UPDATE_SOURCE_PATH.strip(\'/\')}/mini_os.py"\n                candidates = [name for name in archive.namelist() if name.endswith(expected_suffix)]'
+        source = source.replace(old_candidates, new_candidates)
+        if "def patch_downloaded_updater(self, script_path):" not in source:
+            method_source = inspect.getsource(self.patch_downloaded_updater)
+            source = source.replace("    def refresh_system_info(self):", method_source + "\n    def refresh_system_info(self):", 1)
+        if "self.patch_downloaded_updater(stage_source / \"mini_os.py\")" not in source:
+            updater_anchor = (
+                '            if not (stage_source / "mini_os.py").is_file():\n'
+                '                raise RuntimeError("Nie znaleziono głównego pliku programu w archiwum.")\n'
+                '            backup_root.mkdir()'
+            )
+            updater_replacement = updater_anchor.replace(
+                "            backup_root.mkdir()",
+                '            self.patch_downloaded_updater(stage_source / "mini_os.py")\n            backup_root.mkdir()',
+            )
+            source = source.replace(updater_anchor, updater_replacement, 1)
+        script_path.write_text(source, encoding="utf-8")
 
     def refresh_system_info(self):
         labels = getattr(self, "system_info_labels", None)
