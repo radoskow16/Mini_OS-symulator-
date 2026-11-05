@@ -1,0 +1,7986 @@
+[
+  {
+    "id": "popular_cloudflare_com",
+    "name": "cloudflare.com",
+    "icon": "🌐",
+    "url": "https://cloudflare.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazonaws_com",
+    "name": "amazonaws.com",
+    "icon": "🌐",
+    "url": "https://amazonaws.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ezviz7_com",
+    "name": "ezviz7.com",
+    "icon": "🌐",
+    "url": "https://ezviz7.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fbcdn_net",
+    "name": "fbcdn.net",
+    "icon": "🌐",
+    "url": "https://fbcdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gstatic_com",
+    "name": "gstatic.com",
+    "icon": "🌐",
+    "url": "https://gstatic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googleapis_com",
+    "name": "googleapis.com",
+    "icon": "🌐",
+    "url": "https://googleapis.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_microsoft_com",
+    "name": "microsoft.com",
+    "icon": "🌐",
+    "url": "https://microsoft.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamai_net",
+    "name": "akamai.net",
+    "icon": "🌐",
+    "url": "https://akamai.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hicloudcam_com",
+    "name": "hicloudcam.com",
+    "icon": "🌐",
+    "url": "https://hicloudcam.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamaiedge_net",
+    "name": "akamaiedge.net",
+    "icon": "🌐",
+    "url": "https://akamaiedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_twitter_com",
+    "name": "twitter.com",
+    "icon": "🌐",
+    "url": "https://twitter.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mail_ru",
+    "name": "mail.ru",
+    "icon": "🌐",
+    "url": "https://mail.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azure_com",
+    "name": "azure.com",
+    "icon": "🌐",
+    "url": "https://azure.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akadns_net",
+    "name": "akadns.net",
+    "icon": "🌐",
+    "url": "https://akadns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_domaincontrol_com",
+    "name": "domaincontrol.com",
+    "icon": "🌐",
+    "url": "https://domaincontrol.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googlevideo_com",
+    "name": "googlevideo.com",
+    "icon": "🌐",
+    "url": "https://googlevideo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_triplinkintl_com",
+    "name": "triplinkintl.com",
+    "icon": "🌐",
+    "url": "https://triplinkintl.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googletagmanager_com",
+    "name": "googletagmanager.com",
+    "icon": "🌐",
+    "url": "https://googletagmanager.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gtld_servers_net",
+    "name": "gtld-servers.net",
+    "icon": "🌐",
+    "url": "https://gtld-servers.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gwfb_net",
+    "name": "gwfb.net",
+    "icon": "🌐",
+    "url": "https://gwfb.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_appsflyersdk_com",
+    "name": "appsflyersdk.com",
+    "icon": "🌐",
+    "url": "https://appsflyersdk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dzen_ru",
+    "name": "dzen.ru",
+    "icon": "🌐",
+    "url": "https://dzen.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudfront_net",
+    "name": "cloudfront.net",
+    "icon": "🌐",
+    "url": "https://cloudfront.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shiabank_com",
+    "name": "shiabank.com",
+    "icon": "🌐",
+    "url": "https://shiabank.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_office_com",
+    "name": "office.com",
+    "icon": "🌐",
+    "url": "https://office.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sharepoint_com",
+    "name": "sharepoint.com",
+    "icon": "🌐",
+    "url": "https://sharepoint.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aaplimg_com",
+    "name": "aaplimg.com",
+    "icon": "🌐",
+    "url": "https://aaplimg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trafficmanager_net",
+    "name": "trafficmanager.net",
+    "icon": "🌐",
+    "url": "https://trafficmanager.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fastly_net",
+    "name": "fastly.net",
+    "icon": "🌐",
+    "url": "https://fastly.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_apple_dns_net",
+    "name": "apple-dns.net",
+    "icon": "🌐",
+    "url": "https://apple-dns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloud_microsoft",
+    "name": "cloud.microsoft",
+    "icon": "🌐",
+    "url": "https://cloud.microsoft",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_whatsapp_net",
+    "name": "whatsapp.net",
+    "icon": "🌐",
+    "url": "https://whatsapp.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lsrelayaccess_com",
+    "name": "lsrelayaccess.com",
+    "icon": "🌐",
+    "url": "https://lsrelayaccess.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_office_net",
+    "name": "office.net",
+    "icon": "🌐",
+    "url": "https://office.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googleusercontent_com",
+    "name": "googleusercontent.com",
+    "icon": "🌐",
+    "url": "https://googleusercontent.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_youtu_be",
+    "name": "youtu.be",
+    "icon": "🌐",
+    "url": "https://youtu.be",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_doubleclick_net",
+    "name": "doubleclick.net",
+    "icon": "🌐",
+    "url": "https://doubleclick.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_w2rt6byl5nf1opmc_a_com",
+    "name": "w2rt6byl5nf1opmc-a.com",
+    "icon": "🌐",
+    "url": "https://w2rt6byl5nf1opmc-a.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googlesyndication_com",
+    "name": "googlesyndication.com",
+    "icon": "🌐",
+    "url": "https://googlesyndication.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pv_cdn_net",
+    "name": "pv-cdn.net",
+    "icon": "🌐",
+    "url": "https://pv-cdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gandi_net",
+    "name": "gandi.net",
+    "icon": "🌐",
+    "url": "https://gandi.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_icloud_com",
+    "name": "icloud.com",
+    "icon": "🌐",
+    "url": "https://icloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_windows_net",
+    "name": "windows.net",
+    "icon": "🌐",
+    "url": "https://windows.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudflare_net",
+    "name": "cloudflare.net",
+    "icon": "🌐",
+    "url": "https://cloudflare.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_microsoftonline_com",
+    "name": "microsoftonline.com",
+    "icon": "🌐",
+    "url": "https://microsoftonline.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_goo_gl",
+    "name": "goo.gl",
+    "icon": "🌐",
+    "url": "https://goo.gl",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_myfritz_net",
+    "name": "myfritz.net",
+    "icon": "🌐",
+    "url": "https://myfritz.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adobe_com",
+    "name": "adobe.com",
+    "icon": "🌐",
+    "url": "https://adobe.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zoom_us",
+    "name": "zoom.us",
+    "icon": "🌐",
+    "url": "https://zoom.us",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_windowsupdate_com",
+    "name": "windowsupdate.com",
+    "icon": "🌐",
+    "url": "https://windowsupdate.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wordpress_org",
+    "name": "wordpress.org",
+    "icon": "🌐",
+    "url": "https://wordpress.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googledomains_com",
+    "name": "googledomains.com",
+    "icon": "🌐",
+    "url": "https://googledomains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gvt1_com",
+    "name": "gvt1.com",
+    "icon": "🌐",
+    "url": "https://gvt1.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_skype_com",
+    "name": "skype.com",
+    "icon": "🌐",
+    "url": "https://skype.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wa_me",
+    "name": "wa.me",
+    "icon": "🌐",
+    "url": "https://wa.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_digicert_com",
+    "name": "digicert.com",
+    "icon": "🌐",
+    "url": "https://digicert.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_h264_io",
+    "name": "h264.io",
+    "icon": "🌐",
+    "url": "https://h264.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_edgekey_net",
+    "name": "edgekey.net",
+    "icon": "🌐",
+    "url": "https://edgekey.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokcdn_com",
+    "name": "tiktokcdn.com",
+    "icon": "🌐",
+    "url": "https://tiktokcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_opera_com",
+    "name": "opera.com",
+    "icon": "🌐",
+    "url": "https://opera.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_roblox_com",
+    "name": "roblox.com",
+    "icon": "🌐",
+    "url": "https://roblox.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_workers_dev",
+    "name": "workers.dev",
+    "icon": "🌐",
+    "url": "https://workers.dev",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_a2z_com",
+    "name": "a2z.com",
+    "icon": "🌐",
+    "url": "https://a2z.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokv_com",
+    "name": "tiktokv.com",
+    "icon": "🌐",
+    "url": "https://tiktokv.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazonvideo_com",
+    "name": "amazonvideo.com",
+    "icon": "🌐",
+    "url": "https://amazonvideo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_b_cdn_net",
+    "name": "b-cdn.net",
+    "icon": "🌐",
+    "url": "https://b-cdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_baidu_com",
+    "name": "baidu.com",
+    "icon": "🌐",
+    "url": "https://baidu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ntp_org",
+    "name": "ntp.org",
+    "icon": "🌐",
+    "url": "https://ntp.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_blogspot_com",
+    "name": "blogspot.com",
+    "icon": "🌐",
+    "url": "https://blogspot.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_3gppnetwork_org",
+    "name": "3gppnetwork.org",
+    "icon": "🌐",
+    "url": "https://3gppnetwork.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_qq_com",
+    "name": "qq.com",
+    "icon": "🌐",
+    "url": "https://qq.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akam_net",
+    "name": "akam.net",
+    "icon": "🌐",
+    "url": "https://akam.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nginx_org",
+    "name": "nginx.org",
+    "icon": "🌐",
+    "url": "https://nginx.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msn_com",
+    "name": "msn.com",
+    "icon": "🌐",
+    "url": "https://msn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yandex_net",
+    "name": "yandex.net",
+    "icon": "🌐",
+    "url": "https://yandex.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_epicgames_com",
+    "name": "epicgames.com",
+    "icon": "🌐",
+    "url": "https://epicgames.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aws_dev",
+    "name": "aws.dev",
+    "icon": "🌐",
+    "url": "https://aws.dev",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_f5_com",
+    "name": "f5.com",
+    "icon": "🌐",
+    "url": "https://f5.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wordpress_com",
+    "name": "wordpress.com",
+    "icon": "🌐",
+    "url": "https://wordpress.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_me",
+    "name": "t.me",
+    "icon": "🌐",
+    "url": "https://t.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nginx_com",
+    "name": "nginx.com",
+    "icon": "🌐",
+    "url": "https://nginx.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sentry_io",
+    "name": "sentry.io",
+    "icon": "🌐",
+    "url": "https://sentry.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lencr_org",
+    "name": "lencr.org",
+    "icon": "🌐",
+    "url": "https://lencr.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_edgesuite_net",
+    "name": "edgesuite.net",
+    "icon": "🌐",
+    "url": "https://edgesuite.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdn77_org",
+    "name": "cdn77.org",
+    "icon": "🌐",
+    "url": "https://cdn77.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dotaplabs_net",
+    "name": "dotaplabs.net",
+    "icon": "🌐",
+    "url": "https://dotaplabs.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ui_com",
+    "name": "ui.com",
+    "icon": "🌐",
+    "url": "https://ui.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_europa_eu",
+    "name": "europa.eu",
+    "icon": "🌐",
+    "url": "https://europa.eu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yandex_ru",
+    "name": "yandex.ru",
+    "icon": "🌐",
+    "url": "https://yandex.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_2mdn_net",
+    "name": "2mdn.net",
+    "icon": "🌐",
+    "url": "https://2mdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdninstagram_com",
+    "name": "cdninstagram.com",
+    "icon": "🌐",
+    "url": "https://cdninstagram.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_virginm_net",
+    "name": "virginm.net",
+    "icon": "🌐",
+    "url": "https://virginm.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_intuit_com",
+    "name": "intuit.com",
+    "icon": "🌐",
+    "url": "https://intuit.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_root_servers_net",
+    "name": "root-servers.net",
+    "icon": "🌐",
+    "url": "https://root-servers.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gvt2_com",
+    "name": "gvt2.com",
+    "icon": "🌐",
+    "url": "https://gvt2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bit_ly",
+    "name": "bit.ly",
+    "icon": "🌐",
+    "url": "https://bit.ly",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ipify_org",
+    "name": "ipify.org",
+    "icon": "🌐",
+    "url": "https://ipify.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aliyuncs_com",
+    "name": "aliyuncs.com",
+    "icon": "🌐",
+    "url": "https://aliyuncs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_online_de",
+    "name": "t-online.de",
+    "icon": "🌐",
+    "url": "https://t-online.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsung_com",
+    "name": "samsung.com",
+    "icon": "🌐",
+    "url": "https://samsung.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yccdn_ru",
+    "name": "yccdn.ru",
+    "icon": "🌐",
+    "url": "https://yccdn.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fastly_edge_com",
+    "name": "fastly-edge.com",
+    "icon": "🌐",
+    "url": "https://fastly-edge.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_okcdn_ru",
+    "name": "okcdn.ru",
+    "icon": "🌐",
+    "url": "https://okcdn.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_skybridge_click",
+    "name": "skybridge.click",
+    "icon": "🌐",
+    "url": "https://skybridge.click",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_registrar_servers_com",
+    "name": "registrar-servers.com",
+    "icon": "🌐",
+    "url": "https://registrar-servers.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_office365_com",
+    "name": "office365.com",
+    "icon": "🌐",
+    "url": "https://office365.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_dev",
+    "name": "amazon.dev",
+    "icon": "🌐",
+    "url": "https://amazon.dev",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_openai_com",
+    "name": "openai.com",
+    "icon": "🌐",
+    "url": "https://openai.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azurefd_net",
+    "name": "azurefd.net",
+    "icon": "🌐",
+    "url": "https://azurefd.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_android_com",
+    "name": "android.com",
+    "icon": "🌐",
+    "url": "https://android.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ytimg_com",
+    "name": "ytimg.com",
+    "icon": "🌐",
+    "url": "https://ytimg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adobe_io",
+    "name": "adobe.io",
+    "icon": "🌐",
+    "url": "https://adobe.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_outlook_com",
+    "name": "outlook.com",
+    "icon": "🌐",
+    "url": "https://outlook.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_windows_com",
+    "name": "windows.com",
+    "icon": "🌐",
+    "url": "https://windows.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudflare_dns_com",
+    "name": "cloudflare-dns.com",
+    "icon": "🌐",
+    "url": "https://cloudflare-dns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nic_ru",
+    "name": "nic.ru",
+    "icon": "🌐",
+    "url": "https://nic.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nih_gov",
+    "name": "nih.gov",
+    "icon": "🌐",
+    "url": "https://nih.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamaized_net",
+    "name": "akamaized.net",
+    "icon": "🌐",
+    "url": "https://akamaized.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_apache_org",
+    "name": "apache.org",
+    "icon": "🌐",
+    "url": "https://apache.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_webex_com",
+    "name": "webex.com",
+    "icon": "🌐",
+    "url": "https://webex.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_static_microsoft",
+    "name": "static.microsoft",
+    "icon": "🌐",
+    "url": "https://static.microsoft",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_discord_gg",
+    "name": "discord.gg",
+    "icon": "🌐",
+    "url": "https://discord.gg",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nflxso_net",
+    "name": "nflxso.net",
+    "icon": "🌐",
+    "url": "https://nflxso.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dns_parking_com",
+    "name": "dns-parking.com",
+    "icon": "🌐",
+    "url": "https://dns-parking.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vk_ru",
+    "name": "vk.ru",
+    "icon": "🌐",
+    "url": "https://vk.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tm_azurefd_net",
+    "name": "tm-azurefd.net",
+    "icon": "🌐",
+    "url": "https://tm-azurefd.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_forms_gle",
+    "name": "forms.gle",
+    "icon": "🌐",
+    "url": "https://forms.gle",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_duckdns_org",
+    "name": "duckdns.org",
+    "icon": "🌐",
+    "url": "https://duckdns.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_supertms_com",
+    "name": "supertms.com",
+    "icon": "🌐",
+    "url": "https://supertms.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dnsowl_com",
+    "name": "dnsowl.com",
+    "icon": "🌐",
+    "url": "https://dnsowl.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vk_com",
+    "name": "vk.com",
+    "icon": "🌐",
+    "url": "https://vk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_crashlytics_com",
+    "name": "crashlytics.com",
+    "icon": "🌐",
+    "url": "https://crashlytics.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tumblr_com",
+    "name": "tumblr.com",
+    "icon": "🌐",
+    "url": "https://tumblr.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azurewebsites_net",
+    "name": "azurewebsites.net",
+    "icon": "🌐",
+    "url": "https://azurewebsites.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_godaddy_com",
+    "name": "godaddy.com",
+    "icon": "🌐",
+    "url": "https://godaddy.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spo_msedge_net",
+    "name": "spo-msedge.net",
+    "icon": "🌐",
+    "url": "https://spo-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_reg_ru",
+    "name": "reg.ru",
+    "icon": "🌐",
+    "url": "https://reg.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trbcdn_net",
+    "name": "trbcdn.net",
+    "icon": "🌐",
+    "url": "https://trbcdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jomodns_com",
+    "name": "jomodns.com",
+    "icon": "🌐",
+    "url": "https://jomodns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gravatar_com",
+    "name": "gravatar.com",
+    "icon": "🌐",
+    "url": "https://gravatar.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ubuntu_com",
+    "name": "ubuntu.com",
+    "icon": "🌐",
+    "url": "https://ubuntu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_adsystem_com",
+    "name": "amazon-adsystem.com",
+    "icon": "🌐",
+    "url": "https://amazon-adsystem.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shopify_com",
+    "name": "shopify.com",
+    "icon": "🌐",
+    "url": "https://shopify.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kaspersky_com",
+    "name": "kaspersky.com",
+    "icon": "🌐",
+    "url": "https://kaspersky.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ax_msedge_net",
+    "name": "ax-msedge.net",
+    "icon": "🌐",
+    "url": "https://ax-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungcloud_com",
+    "name": "samsungcloud.com",
+    "icon": "🌐",
+    "url": "https://samsungcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_paypal_com",
+    "name": "paypal.com",
+    "icon": "🌐",
+    "url": "https://paypal.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_example_com",
+    "name": "example.com",
+    "icon": "🌐",
+    "url": "https://example.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_analytics_com",
+    "name": "google-analytics.com",
+    "icon": "🌐",
+    "url": "https://google-analytics.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_scorecardresearch_com",
+    "name": "scorecardresearch.com",
+    "icon": "🌐",
+    "url": "https://scorecardresearch.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pages_dev",
+    "name": "pages.dev",
+    "icon": "🌐",
+    "url": "https://pages.dev",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flickr_com",
+    "name": "flickr.com",
+    "icon": "🌐",
+    "url": "https://flickr.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telekom_net",
+    "name": "telekom.net",
+    "icon": "🌐",
+    "url": "https://telekom.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nflximg_com",
+    "name": "nflximg.com",
+    "icon": "🌐",
+    "url": "https://nflximg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_w3_org",
+    "name": "w3.org",
+    "icon": "🌐",
+    "url": "https://w3.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ksyuncdn_com",
+    "name": "ksyuncdn.com",
+    "icon": "🌐",
+    "url": "https://ksyuncdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_creativecommons_org",
+    "name": "creativecommons.org",
+    "icon": "🌐",
+    "url": "https://creativecommons.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_meraki_com",
+    "name": "meraki.com",
+    "icon": "🌐",
+    "url": "https://meraki.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unity3d_com",
+    "name": "unity3d.com",
+    "icon": "🌐",
+    "url": "https://unity3d.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tbcache_com",
+    "name": "tbcache.com",
+    "icon": "🌐",
+    "url": "https://tbcache.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_awswaf_com",
+    "name": "awswaf.com",
+    "icon": "🌐",
+    "url": "https://awswaf.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cnn_com",
+    "name": "cnn.com",
+    "icon": "🌐",
+    "url": "https://cnn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_macromedia_com",
+    "name": "macromedia.com",
+    "icon": "🌐",
+    "url": "https://macromedia.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_comcast_net",
+    "name": "comcast.net",
+    "icon": "🌐",
+    "url": "https://comcast.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pki_goog",
+    "name": "pki.goog",
+    "icon": "🌐",
+    "url": "https://pki.goog",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vkuserphoto_ru",
+    "name": "vkuserphoto.ru",
+    "icon": "🌐",
+    "url": "https://vkuserphoto.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_astrumu_io",
+    "name": "astrumu.io",
+    "icon": "🌐",
+    "url": "https://astrumu.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_youtube_nocookie_com",
+    "name": "youtube-nocookie.com",
+    "icon": "🌐",
+    "url": "https://youtube-nocookie.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_iiko_it",
+    "name": "iiko.it",
+    "icon": "🌐",
+    "url": "https://iiko.it",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_medium_com",
+    "name": "medium.com",
+    "icon": "🌐",
+    "url": "https://medium.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mts_ru",
+    "name": "mts.ru",
+    "icon": "🌐",
+    "url": "https://mts.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hichina_com",
+    "name": "hichina.com",
+    "icon": "🌐",
+    "url": "https://hichina.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_afternic_com",
+    "name": "afternic.com",
+    "icon": "🌐",
+    "url": "https://afternic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_stripe_com",
+    "name": "stripe.com",
+    "icon": "🌐",
+    "url": "https://stripe.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_forter_com",
+    "name": "forter.com",
+    "icon": "🌐",
+    "url": "https://forter.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mtgglobals_com",
+    "name": "mtgglobals.com",
+    "icon": "🌐",
+    "url": "https://mtgglobals.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msedge_net",
+    "name": "msedge.net",
+    "icon": "🌐",
+    "url": "https://msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_doi_org",
+    "name": "doi.org",
+    "icon": "🌐",
+    "url": "https://doi.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_app_measurement_com",
+    "name": "app-measurement.com",
+    "icon": "🌐",
+    "url": "https://app-measurement.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_quickconnect_to",
+    "name": "quickconnect.to",
+    "icon": "🌐",
+    "url": "https://quickconnect.to",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_oracle_com",
+    "name": "oracle.com",
+    "icon": "🌐",
+    "url": "https://oracle.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bybanking_com",
+    "name": "bybanking.com",
+    "icon": "🌐",
+    "url": "https://bybanking.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ttdns2_com",
+    "name": "ttdns2.com",
+    "icon": "🌐",
+    "url": "https://ttdns2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azureedge_net",
+    "name": "azureedge.net",
+    "icon": "🌐",
+    "url": "https://azureedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_omtrdc_net",
+    "name": "omtrdc.net",
+    "icon": "🌐",
+    "url": "https://omtrdc.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_criteo_com",
+    "name": "criteo.com",
+    "icon": "🌐",
+    "url": "https://criteo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_firefox_portal_detection_com",
+    "name": "firefox-portal-detection.com",
+    "icon": "🌐",
+    "url": "https://firefox-portal-detection.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_licdn_com",
+    "name": "licdn.com",
+    "icon": "🌐",
+    "url": "https://licdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xiaomi_com",
+    "name": "xiaomi.com",
+    "icon": "🌐",
+    "url": "https://xiaomi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_arubanetworks_com",
+    "name": "arubanetworks.com",
+    "icon": "🌐",
+    "url": "https://arubanetworks.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdngslb_com",
+    "name": "cdngslb.com",
+    "icon": "🌐",
+    "url": "https://cdngslb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ailawandorder_com",
+    "name": "ailawandorder.com",
+    "icon": "🌐",
+    "url": "https://ailawandorder.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_publicnode_com",
+    "name": "publicnode.com",
+    "icon": "🌐",
+    "url": "https://publicnode.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wikimedia_org",
+    "name": "wikimedia.org",
+    "icon": "🌐",
+    "url": "https://wikimedia.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hcaptcha_com",
+    "name": "hcaptcha.com",
+    "icon": "🌐",
+    "url": "https://hcaptcha.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_forbes_com",
+    "name": "forbes.com",
+    "icon": "🌐",
+    "url": "https://forbes.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rbxcdn_com",
+    "name": "rbxcdn.com",
+    "icon": "🌐",
+    "url": "https://rbxcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_skyhigh_cloud",
+    "name": "skyhigh.cloud",
+    "icon": "🌐",
+    "url": "https://skyhigh.cloud",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sciencedirect_com",
+    "name": "sciencedirect.com",
+    "icon": "🌐",
+    "url": "https://sciencedirect.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_researchgate_net",
+    "name": "researchgate.net",
+    "icon": "🌐",
+    "url": "https://researchgate.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_applovin_com",
+    "name": "applovin.com",
+    "icon": "🌐",
+    "url": "https://applovin.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nist_gov",
+    "name": "nist.gov",
+    "icon": "🌐",
+    "url": "https://nist.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_weather_com",
+    "name": "weather.com",
+    "icon": "🌐",
+    "url": "https://weather.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_roku_com",
+    "name": "roku.com",
+    "icon": "🌐",
+    "url": "https://roku.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bbc_co_uk",
+    "name": "bbc.co.uk",
+    "icon": "🌐",
+    "url": "https://bbc.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googletagservices_com",
+    "name": "googletagservices.com",
+    "icon": "🌐",
+    "url": "https://googletagservices.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_namecheap_com",
+    "name": "namecheap.com",
+    "icon": "🌐",
+    "url": "https://namecheap.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shifen_com",
+    "name": "shifen.com",
+    "icon": "🌐",
+    "url": "https://shifen.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cpanel_net",
+    "name": "cpanel.net",
+    "icon": "🌐",
+    "url": "https://cpanel.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yandexcloud_net",
+    "name": "yandexcloud.net",
+    "icon": "🌐",
+    "url": "https://yandexcloud.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amplitude_com",
+    "name": "amplitude.com",
+    "icon": "🌐",
+    "url": "https://amplitude.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msftconnecttest_com",
+    "name": "msftconnecttest.com",
+    "icon": "🌐",
+    "url": "https://msftconnecttest.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_playstation_net",
+    "name": "playstation.net",
+    "icon": "🌐",
+    "url": "https://playstation.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_co",
+    "name": "t.co",
+    "icon": "🌐",
+    "url": "https://t.co",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bytefcdn_oversea_com",
+    "name": "bytefcdn-oversea.com",
+    "icon": "🌐",
+    "url": "https://bytefcdn-oversea.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cisco_com",
+    "name": "cisco.com",
+    "icon": "🌐",
+    "url": "https://cisco.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sourceforge_net",
+    "name": "sourceforge.net",
+    "icon": "🌐",
+    "url": "https://sourceforge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wsdvs_com",
+    "name": "wsdvs.com",
+    "icon": "🌐",
+    "url": "https://wsdvs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adtrafficquality_google",
+    "name": "adtrafficquality.google",
+    "icon": "🌐",
+    "url": "https://adtrafficquality.google",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_icanhazip_com",
+    "name": "icanhazip.com",
+    "icon": "🌐",
+    "url": "https://icanhazip.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vedcdnlb_com",
+    "name": "vedcdnlb.com",
+    "icon": "🌐",
+    "url": "https://vedcdnlb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aliyuncsslbintl_com",
+    "name": "aliyuncsslbintl.com",
+    "icon": "🌐",
+    "url": "https://aliyuncsslbintl.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sfx_ms",
+    "name": "sfx.ms",
+    "icon": "🌐",
+    "url": "https://sfx.ms",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dnsmadeeasy_com",
+    "name": "dnsmadeeasy.com",
+    "icon": "🌐",
+    "url": "https://dnsmadeeasy.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hubspot_com",
+    "name": "hubspot.com",
+    "icon": "🌐",
+    "url": "https://hubspot.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_name_services_com",
+    "name": "name-services.com",
+    "icon": "🌐",
+    "url": "https://name-services.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_alibabadns_com",
+    "name": "alibabadns.com",
+    "icon": "🌐",
+    "url": "https://alibabadns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_linktr_ee",
+    "name": "linktr.ee",
+    "icon": "🌐",
+    "url": "https://linktr.ee",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdn_apple_com",
+    "name": "cdn-apple.com",
+    "icon": "🌐",
+    "url": "https://cdn-apple.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_alidns_com",
+    "name": "alidns.com",
+    "icon": "🌐",
+    "url": "https://alidns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_who_int",
+    "name": "who.int",
+    "icon": "🌐",
+    "url": "https://who.int",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googleblog_com",
+    "name": "googleblog.com",
+    "icon": "🌐",
+    "url": "https://googleblog.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ozon_ru",
+    "name": "ozon.ru",
+    "icon": "🌐",
+    "url": "https://ozon.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_avcdn_net",
+    "name": "avcdn.net",
+    "icon": "🌐",
+    "url": "https://avcdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googleadservices_com",
+    "name": "googleadservices.com",
+    "icon": "🌐",
+    "url": "https://googleadservices.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_namebrightdns_com",
+    "name": "namebrightdns.com",
+    "icon": "🌐",
+    "url": "https://namebrightdns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_geobasket_ru",
+    "name": "geobasket.ru",
+    "icon": "🌐",
+    "url": "https://geobasket.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wixsite_com",
+    "name": "wixsite.com",
+    "icon": "🌐",
+    "url": "https://wixsite.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ttvnw_net",
+    "name": "ttvnw.net",
+    "icon": "🌐",
+    "url": "https://ttvnw.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ibm_com",
+    "name": "ibm.com",
+    "icon": "🌐",
+    "url": "https://ibm.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamaihd_net",
+    "name": "akamaihd.net",
+    "icon": "🌐",
+    "url": "https://akamaihd.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_workbox_dk",
+    "name": "workbox.dk",
+    "icon": "🌐",
+    "url": "https://workbox.dk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_canva_com",
+    "name": "canva.com",
+    "icon": "🌐",
+    "url": "https://canva.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_userapi_com",
+    "name": "userapi.com",
+    "icon": "🌐",
+    "url": "https://userapi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_datadoghq_com",
+    "name": "datadoghq.com",
+    "icon": "🌐",
+    "url": "https://datadoghq.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_launchpad_net",
+    "name": "launchpad.net",
+    "icon": "🌐",
+    "url": "https://launchpad.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hp_com",
+    "name": "hp.com",
+    "icon": "🌐",
+    "url": "https://hp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mybluehost_me",
+    "name": "mybluehost.me",
+    "icon": "🌐",
+    "url": "https://mybluehost.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xcal_tv",
+    "name": "xcal.tv",
+    "icon": "🌐",
+    "url": "https://xcal.tv",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gamepass_com",
+    "name": "gamepass.com",
+    "icon": "🌐",
+    "url": "https://gamepass.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tinyurl_com",
+    "name": "tinyurl.com",
+    "icon": "🌐",
+    "url": "https://tinyurl.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telegram_me",
+    "name": "telegram.me",
+    "icon": "🌐",
+    "url": "https://telegram.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gov_uk",
+    "name": "gov.uk",
+    "icon": "🌐",
+    "url": "https://gov.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nature_com",
+    "name": "nature.com",
+    "icon": "🌐",
+    "url": "https://nature.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_app_analytics_services_com",
+    "name": "app-analytics-services.com",
+    "icon": "🌐",
+    "url": "https://app-analytics-services.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ggpht_com",
+    "name": "ggpht.com",
+    "icon": "🌐",
+    "url": "https://ggpht.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ip_api_com",
+    "name": "ip-api.com",
+    "icon": "🌐",
+    "url": "https://ip-api.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_demdex_net",
+    "name": "demdex.net",
+    "icon": "🌐",
+    "url": "https://demdex.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_steampowered_com",
+    "name": "steampowered.com",
+    "icon": "🌐",
+    "url": "https://steampowered.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_media_amazon_com",
+    "name": "media-amazon.com",
+    "icon": "🌐",
+    "url": "https://media-amazon.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_myshopify_com",
+    "name": "myshopify.com",
+    "icon": "🌐",
+    "url": "https://myshopify.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spov_msedge_net",
+    "name": "spov-msedge.net",
+    "icon": "🌐",
+    "url": "https://spov-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_salesforce_com",
+    "name": "salesforce.com",
+    "icon": "🌐",
+    "url": "https://salesforce.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokcdn_us_com",
+    "name": "tiktokcdn-us.com",
+    "icon": "🌐",
+    "url": "https://tiktokcdn-us.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_slack_com",
+    "name": "slack.com",
+    "icon": "🌐",
+    "url": "https://slack.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_miui_com",
+    "name": "miui.com",
+    "icon": "🌐",
+    "url": "https://miui.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_launchdarkly_com",
+    "name": "launchdarkly.com",
+    "icon": "🌐",
+    "url": "https://launchdarkly.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_springer_com",
+    "name": "springer.com",
+    "icon": "🌐",
+    "url": "https://springer.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_byteoversea_net",
+    "name": "byteoversea.net",
+    "icon": "🌐",
+    "url": "https://byteoversea.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_alibaba_com",
+    "name": "alibaba.com",
+    "icon": "🌐",
+    "url": "https://alibaba.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jsdelivr_net",
+    "name": "jsdelivr.net",
+    "icon": "🌐",
+    "url": "https://jsdelivr.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_crcdn_pro",
+    "name": "crcdn.pro",
+    "icon": "🌐",
+    "url": "https://crcdn.pro",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wac_msedge_net",
+    "name": "wac-msedge.net",
+    "icon": "🌐",
+    "url": "https://wac-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msftncsi_com",
+    "name": "msftncsi.com",
+    "icon": "🌐",
+    "url": "https://msftncsi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_avast_com",
+    "name": "avast.com",
+    "icon": "🌐",
+    "url": "https://avast.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_imcmdb_net",
+    "name": "imcmdb.net",
+    "icon": "🌐",
+    "url": "https://imcmdb.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telecid_ru",
+    "name": "telecid.ru",
+    "icon": "🌐",
+    "url": "https://telecid.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vungle_com",
+    "name": "vungle.com",
+    "icon": "🌐",
+    "url": "https://vungle.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_douyincdn_com",
+    "name": "douyincdn.com",
+    "icon": "🌐",
+    "url": "https://douyincdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_steamserver_net",
+    "name": "steamserver.net",
+    "icon": "🌐",
+    "url": "https://steamserver.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_autodesk_com",
+    "name": "autodesk.com",
+    "icon": "🌐",
+    "url": "https://autodesk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_heytapmobile_com",
+    "name": "heytapmobile.com",
+    "icon": "🌐",
+    "url": "https://heytapmobile.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pubmatic_com",
+    "name": "pubmatic.com",
+    "icon": "🌐",
+    "url": "https://pubmatic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_grammarly_com",
+    "name": "grammarly.com",
+    "icon": "🌐",
+    "url": "https://grammarly.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_debian_org",
+    "name": "debian.org",
+    "icon": "🌐",
+    "url": "https://debian.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_weibo_com",
+    "name": "weibo.com",
+    "icon": "🌐",
+    "url": "https://weibo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_harvard_edu",
+    "name": "harvard.edu",
+    "icon": "🌐",
+    "url": "https://harvard.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudflareinsights_com",
+    "name": "cloudflareinsights.com",
+    "icon": "🌐",
+    "url": "https://cloudflareinsights.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wiley_com",
+    "name": "wiley.com",
+    "icon": "🌐",
+    "url": "https://wiley.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_online_metrix_net",
+    "name": "online-metrix.net",
+    "icon": "🌐",
+    "url": "https://online-metrix.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_co_uk",
+    "name": "amazon.co.uk",
+    "icon": "🌐",
+    "url": "https://amazon.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rubiconproject_com",
+    "name": "rubiconproject.com",
+    "icon": "🌐",
+    "url": "https://rubiconproject.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_onelink_me",
+    "name": "onelink.me",
+    "icon": "🌐",
+    "url": "https://onelink.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ok_ru",
+    "name": "ok.ru",
+    "icon": "🌐",
+    "url": "https://ok.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_anthropic_com",
+    "name": "anthropic.com",
+    "icon": "🌐",
+    "url": "https://anthropic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mi_com",
+    "name": "mi.com",
+    "icon": "🌐",
+    "url": "https://mi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unisys_com",
+    "name": "unisys.com",
+    "icon": "🌐",
+    "url": "https://unisys.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gmail_com",
+    "name": "gmail.com",
+    "icon": "🌐",
+    "url": "https://gmail.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_clarity_ms",
+    "name": "clarity.ms",
+    "icon": "🌐",
+    "url": "https://clarity.ms",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_archive_ph",
+    "name": "archive.ph",
+    "icon": "🌐",
+    "url": "https://archive.ph",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zendesk_com",
+    "name": "zendesk.com",
+    "icon": "🌐",
+    "url": "https://zendesk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_php_net",
+    "name": "php.net",
+    "icon": "🌐",
+    "url": "https://php.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_smartadserver_com",
+    "name": "smartadserver.com",
+    "icon": "🌐",
+    "url": "https://smartadserver.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_naver_com",
+    "name": "naver.com",
+    "icon": "🌐",
+    "url": "https://naver.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_casalemedia_com",
+    "name": "casalemedia.com",
+    "icon": "🌐",
+    "url": "https://casalemedia.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_volcfcdndvs_com",
+    "name": "volcfcdndvs.com",
+    "icon": "🌐",
+    "url": "https://volcfcdndvs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_browser_intake_datadoghq_com",
+    "name": "browser-intake-datadoghq.com",
+    "icon": "🌐",
+    "url": "https://browser-intake-datadoghq.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bilibili_com",
+    "name": "bilibili.com",
+    "icon": "🌐",
+    "url": "https://bilibili.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_manulife_sinochem_com",
+    "name": "manulife-sinochem.com",
+    "icon": "🌐",
+    "url": "https://manulife-sinochem.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ea_com",
+    "name": "ea.com",
+    "icon": "🌐",
+    "url": "https://ea.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tp_link_com",
+    "name": "tp-link.com",
+    "icon": "🌐",
+    "url": "https://tp-link.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vercel_dns_016_com",
+    "name": "vercel-dns-016.com",
+    "icon": "🌐",
+    "url": "https://vercel-dns-016.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trustpilot_com",
+    "name": "trustpilot.com",
+    "icon": "🌐",
+    "url": "https://trustpilot.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gnu_org",
+    "name": "gnu.org",
+    "icon": "🌐",
+    "url": "https://gnu.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_espn_com",
+    "name": "espn.com",
+    "icon": "🌐",
+    "url": "https://espn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_branch_io",
+    "name": "branch.io",
+    "icon": "🌐",
+    "url": "https://branch.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_weebly_com",
+    "name": "weebly.com",
+    "icon": "🌐",
+    "url": "https://weebly.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aliyun_com",
+    "name": "aliyun.com",
+    "icon": "🌐",
+    "url": "https://aliyun.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nflxvideo_net",
+    "name": "nflxvideo.net",
+    "icon": "🌐",
+    "url": "https://nflxvideo.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_checkpoint_com",
+    "name": "checkpoint.com",
+    "icon": "🌐",
+    "url": "https://checkpoint.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dell_com",
+    "name": "dell.com",
+    "icon": "🌐",
+    "url": "https://dell.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tradingview_com",
+    "name": "tradingview.com",
+    "icon": "🌐",
+    "url": "https://tradingview.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nvidia_com",
+    "name": "nvidia.com",
+    "icon": "🌐",
+    "url": "https://nvidia.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdc_gov",
+    "name": "cdc.gov",
+    "icon": "🌐",
+    "url": "https://cdc.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_un_org",
+    "name": "un.org",
+    "icon": "🌐",
+    "url": "https://un.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cm_com",
+    "name": "cm.com",
+    "icon": "🌐",
+    "url": "https://cm.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_paloaltonetworks_com",
+    "name": "paloaltonetworks.com",
+    "icon": "🌐",
+    "url": "https://paloaltonetworks.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_archive_is",
+    "name": "archive.is",
+    "icon": "🌐",
+    "url": "https://archive.is",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_cn",
+    "name": "google.cn",
+    "icon": "🌐",
+    "url": "https://google.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_globo_com",
+    "name": "globo.com",
+    "icon": "🌐",
+    "url": "https://globo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_worldnic_com",
+    "name": "worldnic.com",
+    "icon": "🌐",
+    "url": "https://worldnic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wsj_com",
+    "name": "wsj.com",
+    "icon": "🌐",
+    "url": "https://wsj.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dotomi_com",
+    "name": "dotomi.com",
+    "icon": "🌐",
+    "url": "https://dotomi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_opendns_com",
+    "name": "opendns.com",
+    "icon": "🌐",
+    "url": "https://opendns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_grammarly_io",
+    "name": "grammarly.io",
+    "icon": "🌐",
+    "url": "https://grammarly.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_allawnos_com",
+    "name": "allawnos.com",
+    "icon": "🌐",
+    "url": "https://allawnos.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tagomi_com",
+    "name": "tagomi.com",
+    "icon": "🌐",
+    "url": "https://tagomi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adnxs_com",
+    "name": "adnxs.com",
+    "icon": "🌐",
+    "url": "https://adnxs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdnbuild_net",
+    "name": "cdnbuild.net",
+    "icon": "🌐",
+    "url": "https://cdnbuild.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dns_google",
+    "name": "dns.google",
+    "icon": "🌐",
+    "url": "https://dns.google",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_issuu_com",
+    "name": "issuu.com",
+    "icon": "🌐",
+    "url": "https://issuu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_stanford_edu",
+    "name": "stanford.edu",
+    "icon": "🌐",
+    "url": "https://stanford.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_de",
+    "name": "amazon.de",
+    "icon": "🌐",
+    "url": "https://amazon.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ripn_net",
+    "name": "ripn.net",
+    "icon": "🌐",
+    "url": "https://ripn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_myhuaweicloud_com",
+    "name": "myhuaweicloud.com",
+    "icon": "🌐",
+    "url": "https://myhuaweicloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bloomberg_com",
+    "name": "bloomberg.com",
+    "icon": "🌐",
+    "url": "https://bloomberg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spaceweb_pro",
+    "name": "spaceweb.pro",
+    "icon": "🌐",
+    "url": "https://spaceweb.pro",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_washingtonpost_com",
+    "name": "washingtonpost.com",
+    "icon": "🌐",
+    "url": "https://washingtonpost.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_live_video_net",
+    "name": "live-video.net",
+    "icon": "🌐",
+    "url": "https://live-video.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shopifysvc_com",
+    "name": "shopifysvc.com",
+    "icon": "🌐",
+    "url": "https://shopifysvc.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bsky_app",
+    "name": "bsky.app",
+    "icon": "🌐",
+    "url": "https://bsky.app",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_okta_com",
+    "name": "okta.com",
+    "icon": "🌐",
+    "url": "https://okta.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokv_us",
+    "name": "tiktokv.us",
+    "icon": "🌐",
+    "url": "https://tiktokv.us",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_plesk_com",
+    "name": "plesk.com",
+    "icon": "🌐",
+    "url": "https://plesk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungcloudsolution_com",
+    "name": "samsungcloudsolution.com",
+    "icon": "🌐",
+    "url": "https://samsungcloudsolution.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cookiedatabase_org",
+    "name": "cookiedatabase.org",
+    "icon": "🌐",
+    "url": "https://cookiedatabase.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_name_com",
+    "name": "name.com",
+    "icon": "🌐",
+    "url": "https://name.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_netease_com",
+    "name": "netease.com",
+    "icon": "🌐",
+    "url": "https://netease.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_go_com",
+    "name": "go.com",
+    "icon": "🌐",
+    "url": "https://go.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazontrust_com",
+    "name": "amazontrust.com",
+    "icon": "🌐",
+    "url": "https://amazontrust.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_on_aws",
+    "name": "on.aws",
+    "icon": "🌐",
+    "url": "https://on.aws",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wps_com",
+    "name": "wps.com",
+    "icon": "🌐",
+    "url": "https://wps.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mangosip_ru",
+    "name": "mangosip.ru",
+    "icon": "🌐",
+    "url": "https://mangosip.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yandex_com",
+    "name": "yandex.com",
+    "icon": "🌐",
+    "url": "https://yandex.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vkuser_net",
+    "name": "vkuser.net",
+    "icon": "🌐",
+    "url": "https://vkuser.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sberbank_ru",
+    "name": "sberbank.ru",
+    "icon": "🌐",
+    "url": "https://sberbank.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ibyteimg_com",
+    "name": "ibyteimg.com",
+    "icon": "🌐",
+    "url": "https://ibyteimg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nr_data_net",
+    "name": "nr-data.net",
+    "icon": "🌐",
+    "url": "https://nr-data.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_capcutapi_com",
+    "name": "capcutapi.com",
+    "icon": "🌐",
+    "url": "https://capcutapi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_plex_direct",
+    "name": "plex.direct",
+    "icon": "🌐",
+    "url": "https://plex.direct",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_scdn_co",
+    "name": "scdn.co",
+    "icon": "🌐",
+    "url": "https://scdn.co",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dynatrace_com",
+    "name": "dynatrace.com",
+    "icon": "🌐",
+    "url": "https://dynatrace.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_calendly_com",
+    "name": "calendly.com",
+    "icon": "🌐",
+    "url": "https://calendly.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_claude_ai",
+    "name": "claude.ai",
+    "icon": "🌐",
+    "url": "https://claude.ai",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_awsglobalaccelerator_com",
+    "name": "awsglobalaccelerator.com",
+    "icon": "🌐",
+    "url": "https://awsglobalaccelerator.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_elasticbeanstalk_com",
+    "name": "elasticbeanstalk.com",
+    "icon": "🌐",
+    "url": "https://elasticbeanstalk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xboxlive_com",
+    "name": "xboxlive.com",
+    "icon": "🌐",
+    "url": "https://xboxlive.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_netflix_net",
+    "name": "netflix.net",
+    "icon": "🌐",
+    "url": "https://netflix.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_atlassian_net",
+    "name": "atlassian.net",
+    "icon": "🌐",
+    "url": "https://atlassian.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_line_me",
+    "name": "line.me",
+    "icon": "🌐",
+    "url": "https://line.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_expireddomains_com",
+    "name": "expireddomains.com",
+    "icon": "🌐",
+    "url": "https://expireddomains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_163_com",
+    "name": "163.com",
+    "icon": "🌐",
+    "url": "https://163.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_indeed_com",
+    "name": "indeed.com",
+    "icon": "🌐",
+    "url": "https://indeed.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_firetvcaptiveportal_com",
+    "name": "firetvcaptiveportal.com",
+    "icon": "🌐",
+    "url": "https://firetvcaptiveportal.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_substack_com",
+    "name": "substack.com",
+    "icon": "🌐",
+    "url": "https://substack.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aol_com",
+    "name": "aol.com",
+    "icon": "🌐",
+    "url": "https://aol.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unsplash_com",
+    "name": "unsplash.com",
+    "icon": "🌐",
+    "url": "https://unsplash.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_drom_ru",
+    "name": "drom.ru",
+    "icon": "🌐",
+    "url": "https://drom.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_impervadns_net",
+    "name": "impervadns.net",
+    "icon": "🌐",
+    "url": "https://impervadns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_steamcommunity_com",
+    "name": "steamcommunity.com",
+    "icon": "🌐",
+    "url": "https://steamcommunity.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spotifycdn_com",
+    "name": "spotifycdn.com",
+    "icon": "🌐",
+    "url": "https://spotifycdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kwai_pro_com",
+    "name": "kwai-pro.com",
+    "icon": "🌐",
+    "url": "https://kwai-pro.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_temu_com",
+    "name": "temu.com",
+    "icon": "🌐",
+    "url": "https://temu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adobe_net",
+    "name": "adobe.net",
+    "icon": "🌐",
+    "url": "https://adobe.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gcdn_co",
+    "name": "gcdn.co",
+    "icon": "🌐",
+    "url": "https://gcdn.co",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokcdn_eu_com",
+    "name": "tiktokcdn-eu.com",
+    "icon": "🌐",
+    "url": "https://tiktokcdn-eu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telekom_de",
+    "name": "telekom.de",
+    "icon": "🌐",
+    "url": "https://telekom.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_netangels_ru",
+    "name": "netangels.ru",
+    "icon": "🌐",
+    "url": "https://netangels.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_heytapdl_com",
+    "name": "heytapdl.com",
+    "icon": "🌐",
+    "url": "https://heytapdl.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokv_eu",
+    "name": "tiktokv.eu",
+    "icon": "🌐",
+    "url": "https://tiktokv.eu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dailymotion_com",
+    "name": "dailymotion.com",
+    "icon": "🌐",
+    "url": "https://dailymotion.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tencent_cloud_net",
+    "name": "tencent-cloud.net",
+    "icon": "🌐",
+    "url": "https://tencent-cloud.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_beian_gov_cn",
+    "name": "beian.gov.cn",
+    "icon": "🌐",
+    "url": "https://beian.gov.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gandi_ns_fr",
+    "name": "gandi-ns.fr",
+    "icon": "🌐",
+    "url": "https://gandi-ns.fr",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pushy_io",
+    "name": "pushy.io",
+    "icon": "🌐",
+    "url": "https://pushy.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokpangle_us",
+    "name": "tiktokpangle.us",
+    "icon": "🌐",
+    "url": "https://tiktokpangle.us",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_inmobi_com",
+    "name": "inmobi.com",
+    "icon": "🌐",
+    "url": "https://inmobi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_chatgpt_site",
+    "name": "chatgpt.site",
+    "icon": "🌐",
+    "url": "https://chatgpt.site",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_intel_com",
+    "name": "intel.com",
+    "icon": "🌐",
+    "url": "https://intel.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_statsigapi_net",
+    "name": "statsigapi.net",
+    "icon": "🌐",
+    "url": "https://statsigapi.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hostgator_com",
+    "name": "hostgator.com",
+    "icon": "🌐",
+    "url": "https://hostgator.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dropcatch_com",
+    "name": "dropcatch.com",
+    "icon": "🌐",
+    "url": "https://dropcatch.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_arxiv_org",
+    "name": "arxiv.org",
+    "icon": "🌐",
+    "url": "https://arxiv.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ampproject_org",
+    "name": "ampproject.org",
+    "icon": "🌐",
+    "url": "https://ampproject.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_taobao_com",
+    "name": "taobao.com",
+    "icon": "🌐",
+    "url": "https://taobao.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_myqcloud_com",
+    "name": "myqcloud.com",
+    "icon": "🌐",
+    "url": "https://myqcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_g_page",
+    "name": "g.page",
+    "icon": "🌐",
+    "url": "https://g.page",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eye4_cn",
+    "name": "eye4.cn",
+    "icon": "🌐",
+    "url": "https://eye4.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yahoo_co_jp",
+    "name": "yahoo.co.jp",
+    "icon": "🌐",
+    "url": "https://yahoo.co.jp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lijit_com",
+    "name": "lijit.com",
+    "icon": "🌐",
+    "url": "https://lijit.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pixabay_com",
+    "name": "pixabay.com",
+    "icon": "🌐",
+    "url": "https://pixabay.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kaspersky_labs_com",
+    "name": "kaspersky-labs.com",
+    "icon": "🌐",
+    "url": "https://kaspersky-labs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_prodregistryv2_org",
+    "name": "prodregistryv2.org",
+    "icon": "🌐",
+    "url": "https://prodregistryv2.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_speedtest_net",
+    "name": "speedtest.net",
+    "icon": "🌐",
+    "url": "https://speedtest.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bluehost_com",
+    "name": "bluehost.com",
+    "icon": "🌐",
+    "url": "https://bluehost.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_run_app",
+    "name": "run.app",
+    "icon": "🌐",
+    "url": "https://run.app",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adobedc_net",
+    "name": "adobedc.net",
+    "icon": "🌐",
+    "url": "https://adobedc.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_huawei_com",
+    "name": "huawei.com",
+    "icon": "🌐",
+    "url": "https://huawei.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mcafee_com",
+    "name": "mcafee.com",
+    "icon": "🌐",
+    "url": "https://mcafee.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_taboola_com",
+    "name": "taboola.com",
+    "icon": "🌐",
+    "url": "https://taboola.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_netcraze_io",
+    "name": "netcraze.io",
+    "icon": "🌐",
+    "url": "https://netcraze.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_businessinsider_com",
+    "name": "businessinsider.com",
+    "icon": "🌐",
+    "url": "https://businessinsider.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aliexpress_com",
+    "name": "aliexpress.com",
+    "icon": "🌐",
+    "url": "https://aliexpress.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vercel_dns_017_com",
+    "name": "vercel-dns-017.com",
+    "icon": "🌐",
+    "url": "https://vercel-dns-017.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_walmart_com",
+    "name": "walmart.com",
+    "icon": "🌐",
+    "url": "https://walmart.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cnbc_com",
+    "name": "cnbc.com",
+    "icon": "🌐",
+    "url": "https://cnbc.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kwai_net",
+    "name": "kwai.net",
+    "icon": "🌐",
+    "url": "https://kwai.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shein_com",
+    "name": "shein.com",
+    "icon": "🌐",
+    "url": "https://shein.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_goodreads_com",
+    "name": "goodreads.com",
+    "icon": "🌐",
+    "url": "https://goodreads.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wp_com",
+    "name": "wp.com",
+    "icon": "🌐",
+    "url": "https://wp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_featureassets_org",
+    "name": "featureassets.org",
+    "icon": "🌐",
+    "url": "https://featureassets.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fandom_com",
+    "name": "fandom.com",
+    "icon": "🌐",
+    "url": "https://fandom.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_facebook_net",
+    "name": "facebook.net",
+    "icon": "🌐",
+    "url": "https://facebook.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dual_s_msedge_net",
+    "name": "dual-s-msedge.net",
+    "icon": "🌐",
+    "url": "https://dual-s-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ietf_org",
+    "name": "ietf.org",
+    "icon": "🌐",
+    "url": "https://ietf.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azure_dns_com",
+    "name": "azure-dns.com",
+    "icon": "🌐",
+    "url": "https://azure-dns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ui_dns_com",
+    "name": "ui-dns.com",
+    "icon": "🌐",
+    "url": "https://ui-dns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_selectel_ru",
+    "name": "selectel.ru",
+    "icon": "🌐",
+    "url": "https://selectel.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_co_jp",
+    "name": "amazon.co.jp",
+    "icon": "🌐",
+    "url": "https://amazon.co.jp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xiaomi_net",
+    "name": "xiaomi.net",
+    "icon": "🌐",
+    "url": "https://xiaomi.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trendmicro_com",
+    "name": "trendmicro.com",
+    "icon": "🌐",
+    "url": "https://trendmicro.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_quora_com",
+    "name": "quora.com",
+    "icon": "🌐",
+    "url": "https://quora.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_statista_com",
+    "name": "statista.com",
+    "icon": "🌐",
+    "url": "https://statista.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mzstatic_com",
+    "name": "mzstatic.com",
+    "icon": "🌐",
+    "url": "https://mzstatic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_scribd_com",
+    "name": "scribd.com",
+    "icon": "🌐",
+    "url": "https://scribd.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_list_manage_com",
+    "name": "list-manage.com",
+    "icon": "🌐",
+    "url": "https://list-manage.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eventbrite_com",
+    "name": "eventbrite.com",
+    "icon": "🌐",
+    "url": "https://eventbrite.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rocket_cdn_com",
+    "name": "rocket-cdn.com",
+    "icon": "🌐",
+    "url": "https://rocket-cdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_teamviewer_com",
+    "name": "teamviewer.com",
+    "icon": "🌐",
+    "url": "https://teamviewer.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_twimg_com",
+    "name": "twimg.com",
+    "icon": "🌐",
+    "url": "https://twimg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sina_com_cn",
+    "name": "sina.com.cn",
+    "icon": "🌐",
+    "url": "https://sina.com.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_foxnews_com",
+    "name": "foxnews.com",
+    "icon": "🌐",
+    "url": "https://foxnews.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_addtoany_com",
+    "name": "addtoany.com",
+    "icon": "🌐",
+    "url": "https://addtoany.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_crpt_ru",
+    "name": "crpt.ru",
+    "icon": "🌐",
+    "url": "https://crpt.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bx_msedge_net",
+    "name": "bx-msedge.net",
+    "icon": "🌐",
+    "url": "https://bx-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dnspod_net",
+    "name": "dnspod.net",
+    "icon": "🌐",
+    "url": "https://dnspod.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_braze_com",
+    "name": "braze.com",
+    "icon": "🌐",
+    "url": "https://braze.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_indiatimes_com",
+    "name": "indiatimes.com",
+    "icon": "🌐",
+    "url": "https://indiatimes.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_playstation_com",
+    "name": "playstation.com",
+    "icon": "🌐",
+    "url": "https://playstation.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_blogger_com",
+    "name": "blogger.com",
+    "icon": "🌐",
+    "url": "https://blogger.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_de",
+    "name": "google.de",
+    "icon": "🌐",
+    "url": "https://google.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_markmonitor_com",
+    "name": "markmonitor.com",
+    "icon": "🌐",
+    "url": "https://markmonitor.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dyndns_org",
+    "name": "dyndns.org",
+    "icon": "🌐",
+    "url": "https://dyndns.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_share_google",
+    "name": "share.google",
+    "icon": "🌐",
+    "url": "https://share.google",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_com_hk",
+    "name": "google.com.hk",
+    "icon": "🌐",
+    "url": "https://google.com.hk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amzn_to",
+    "name": "amzn.to",
+    "icon": "🌐",
+    "url": "https://amzn.to",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_squarespacedns_com",
+    "name": "squarespacedns.com",
+    "icon": "🌐",
+    "url": "https://squarespacedns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_alicdn_com",
+    "name": "alicdn.com",
+    "icon": "🌐",
+    "url": "https://alicdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tplinkcloud_com",
+    "name": "tplinkcloud.com",
+    "icon": "🌐",
+    "url": "https://tplinkcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_timeweb_ru",
+    "name": "timeweb.ru",
+    "icon": "🌐",
+    "url": "https://timeweb.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_noaa_gov",
+    "name": "noaa.gov",
+    "icon": "🌐",
+    "url": "https://noaa.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_behance_net",
+    "name": "behance.net",
+    "icon": "🌐",
+    "url": "https://behance.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adsafeprotected_com",
+    "name": "adsafeprotected.com",
+    "icon": "🌐",
+    "url": "https://adsafeprotected.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nmrodam_com",
+    "name": "nmrodam.com",
+    "icon": "🌐",
+    "url": "https://nmrodam.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_oraclecloud_com",
+    "name": "oraclecloud.com",
+    "icon": "🌐",
+    "url": "https://oraclecloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trueconf_net",
+    "name": "trueconf.net",
+    "icon": "🌐",
+    "url": "https://trueconf.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bdydns_com",
+    "name": "bdydns.com",
+    "icon": "🌐",
+    "url": "https://bdydns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sc_gw_com",
+    "name": "sc-gw.com",
+    "icon": "🌐",
+    "url": "https://sc-gw.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_docker_com",
+    "name": "docker.com",
+    "icon": "🌐",
+    "url": "https://docker.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_supercell_com",
+    "name": "supercell.com",
+    "icon": "🌐",
+    "url": "https://supercell.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_openx_net",
+    "name": "openx.net",
+    "icon": "🌐",
+    "url": "https://openx.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bunnyinfra_net",
+    "name": "bunnyinfra.net",
+    "icon": "🌐",
+    "url": "https://bunnyinfra.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shop_app",
+    "name": "shop.app",
+    "icon": "🌐",
+    "url": "https://shop.app",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mysql_com",
+    "name": "mysql.com",
+    "icon": "🌐",
+    "url": "https://mysql.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_capcut_com",
+    "name": "capcut.com",
+    "icon": "🌐",
+    "url": "https://capcut.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_force_com",
+    "name": "force.com",
+    "icon": "🌐",
+    "url": "https://force.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_appsflyer_com",
+    "name": "appsflyer.com",
+    "icon": "🌐",
+    "url": "https://appsflyer.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ipv4only_arpa",
+    "name": "ipv4only.arpa",
+    "icon": "🌐",
+    "url": "https://ipv4only.arpa",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_e2ro_com",
+    "name": "e2ro.com",
+    "icon": "🌐",
+    "url": "https://e2ro.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nexthink_cloud",
+    "name": "nexthink.cloud",
+    "icon": "🌐",
+    "url": "https://nexthink.cloud",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ft_com",
+    "name": "ft.com",
+    "icon": "🌐",
+    "url": "https://ft.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mozilla_com",
+    "name": "mozilla.com",
+    "icon": "🌐",
+    "url": "https://mozilla.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nease_net",
+    "name": "nease.net",
+    "icon": "🌐",
+    "url": "https://nease.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_uol_com_br",
+    "name": "uol.com.br",
+    "icon": "🌐",
+    "url": "https://uol.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adriver_ru",
+    "name": "adriver.ru",
+    "icon": "🌐",
+    "url": "https://adriver.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_klaviyo_com",
+    "name": "klaviyo.com",
+    "icon": "🌐",
+    "url": "https://klaviyo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_footprintdns_com",
+    "name": "footprintdns.com",
+    "icon": "🌐",
+    "url": "https://footprintdns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_firefox_com",
+    "name": "firefox.com",
+    "icon": "🌐",
+    "url": "https://firefox.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_slideshare_net",
+    "name": "slideshare.net",
+    "icon": "🌐",
+    "url": "https://slideshare.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tandfonline_com",
+    "name": "tandfonline.com",
+    "icon": "🌐",
+    "url": "https://tandfonline.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_centinel_analytica_com",
+    "name": "centinel-analytica.com",
+    "icon": "🌐",
+    "url": "https://centinel-analytica.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_visualstudio_com",
+    "name": "visualstudio.com",
+    "icon": "🌐",
+    "url": "https://visualstudio.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_oup_com",
+    "name": "oup.com",
+    "icon": "🌐",
+    "url": "https://oup.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_exp_tas_com",
+    "name": "exp-tas.com",
+    "icon": "🌐",
+    "url": "https://exp-tas.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungqbe_com",
+    "name": "samsungqbe.com",
+    "icon": "🌐",
+    "url": "https://samsungqbe.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_whecloud_com",
+    "name": "whecloud.com",
+    "icon": "🌐",
+    "url": "https://whecloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudns_net",
+    "name": "cloudns.net",
+    "icon": "🌐",
+    "url": "https://cloudns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sohu_com",
+    "name": "sohu.com",
+    "icon": "🌐",
+    "url": "https://sohu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adobedtm_com",
+    "name": "adobedtm.com",
+    "icon": "🌐",
+    "url": "https://adobedtm.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fast_com",
+    "name": "fast.com",
+    "icon": "🌐",
+    "url": "https://fast.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cornell_edu",
+    "name": "cornell.edu",
+    "icon": "🌐",
+    "url": "https://cornell.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_miit_gov_cn",
+    "name": "miit.gov.cn",
+    "icon": "🌐",
+    "url": "https://miit.gov.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_discord_media",
+    "name": "discord.media",
+    "icon": "🌐",
+    "url": "https://discord.media",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_icloud_content_com",
+    "name": "icloud-content.com",
+    "icon": "🌐",
+    "url": "https://icloud-content.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_byteglb_com",
+    "name": "byteglb.com",
+    "icon": "🌐",
+    "url": "https://byteglb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wired_com",
+    "name": "wired.com",
+    "icon": "🌐",
+    "url": "https://wired.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wbx2_com",
+    "name": "wbx2.com",
+    "icon": "🌐",
+    "url": "https://wbx2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_withgoogle_com",
+    "name": "withgoogle.com",
+    "icon": "🌐",
+    "url": "https://withgoogle.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ddnss_de",
+    "name": "ddnss.de",
+    "icon": "🌐",
+    "url": "https://ddnss.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dreamhost_com",
+    "name": "dreamhost.com",
+    "icon": "🌐",
+    "url": "https://dreamhost.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_edgecdn_ru",
+    "name": "edgecdn.ru",
+    "icon": "🌐",
+    "url": "https://edgecdn.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_herokuapp_com",
+    "name": "herokuapp.com",
+    "icon": "🌐",
+    "url": "https://herokuapp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_comcast_com",
+    "name": "comcast.com",
+    "icon": "🌐",
+    "url": "https://comcast.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ivi_ru",
+    "name": "ivi.ru",
+    "icon": "🌐",
+    "url": "https://ivi.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mediatek_com",
+    "name": "mediatek.com",
+    "icon": "🌐",
+    "url": "https://mediatek.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_time_com",
+    "name": "time.com",
+    "icon": "🌐",
+    "url": "https://time.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_newrelic_com",
+    "name": "newrelic.com",
+    "icon": "🌐",
+    "url": "https://newrelic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_charter_net",
+    "name": "charter.net",
+    "icon": "🌐",
+    "url": "https://charter.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_0xrpc_io",
+    "name": "0xrpc.io",
+    "icon": "🌐",
+    "url": "https://0xrpc.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_threads_com",
+    "name": "threads.com",
+    "icon": "🌐",
+    "url": "https://threads.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jquery_com",
+    "name": "jquery.com",
+    "icon": "🌐",
+    "url": "https://jquery.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wildberries_ru",
+    "name": "wildberries.ru",
+    "icon": "🌐",
+    "url": "https://wildberries.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_qlivecdn_com",
+    "name": "qlivecdn.com",
+    "icon": "🌐",
+    "url": "https://qlivecdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eset_com",
+    "name": "eset.com",
+    "icon": "🌐",
+    "url": "https://eset.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_squarespace_com",
+    "name": "squarespace.com",
+    "icon": "🌐",
+    "url": "https://squarespace.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_svc_ms",
+    "name": "svc.ms",
+    "icon": "🌐",
+    "url": "https://svc.ms",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_deviantart_com",
+    "name": "deviantart.com",
+    "icon": "🌐",
+    "url": "https://deviantart.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ca_gov",
+    "name": "ca.gov",
+    "icon": "🌐",
+    "url": "https://ca.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ezvizlife_com",
+    "name": "ezvizlife.com",
+    "icon": "🌐",
+    "url": "https://ezvizlife.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rakuten_co_jp",
+    "name": "rakuten.co.jp",
+    "icon": "🌐",
+    "url": "https://rakuten.co.jp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mega_co_nz",
+    "name": "mega.co.nz",
+    "icon": "🌐",
+    "url": "https://mega.co.nz",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_360yield_com",
+    "name": "360yield.com",
+    "icon": "🌐",
+    "url": "https://360yield.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_atlassian_com",
+    "name": "atlassian.com",
+    "icon": "🌐",
+    "url": "https://atlassian.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vecdnlb_com",
+    "name": "vecdnlb.com",
+    "icon": "🌐",
+    "url": "https://vecdnlb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_media_net",
+    "name": "media.net",
+    "icon": "🌐",
+    "url": "https://media.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_3lift_com",
+    "name": "3lift.com",
+    "icon": "🌐",
+    "url": "https://3lift.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_live_net",
+    "name": "live.net",
+    "icon": "🌐",
+    "url": "https://live.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_free_fr",
+    "name": "free.fr",
+    "icon": "🌐",
+    "url": "https://free.fr",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adsrvr_org",
+    "name": "adsrvr.org",
+    "icon": "🌐",
+    "url": "https://adsrvr.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dailymail_com",
+    "name": "dailymail.com",
+    "icon": "🌐",
+    "url": "https://dailymail.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_target_com",
+    "name": "target.com",
+    "icon": "🌐",
+    "url": "https://target.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vercel_app",
+    "name": "vercel.app",
+    "icon": "🌐",
+    "url": "https://vercel.app",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_digitalocean_com",
+    "name": "digitalocean.com",
+    "icon": "🌐",
+    "url": "https://digitalocean.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wix_com",
+    "name": "wix.com",
+    "icon": "🌐",
+    "url": "https://wix.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_singtelchina_cn",
+    "name": "singtelchina.cn",
+    "icon": "🌐",
+    "url": "https://singtelchina.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ieee_org",
+    "name": "ieee.org",
+    "icon": "🌐",
+    "url": "https://ieee.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_aboutads_info",
+    "name": "aboutads.info",
+    "icon": "🌐",
+    "url": "https://aboutads.info",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vercel_dns_3_com",
+    "name": "vercel-dns-3.com",
+    "icon": "🌐",
+    "url": "https://vercel-dns-3.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vidaahub_com",
+    "name": "vidaahub.com",
+    "icon": "🌐",
+    "url": "https://vidaahub.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_chinamobile_com",
+    "name": "chinamobile.com",
+    "icon": "🌐",
+    "url": "https://chinamobile.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telefonica_de",
+    "name": "telefonica.de",
+    "icon": "🌐",
+    "url": "https://telefonica.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mdpi_com",
+    "name": "mdpi.com",
+    "icon": "🌐",
+    "url": "https://mdpi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_usatoday_com",
+    "name": "usatoday.com",
+    "icon": "🌐",
+    "url": "https://usatoday.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_doubleverify_com",
+    "name": "doubleverify.com",
+    "icon": "🌐",
+    "url": "https://doubleverify.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rlcdn_com",
+    "name": "rlcdn.com",
+    "icon": "🌐",
+    "url": "https://rlcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sagepub_com",
+    "name": "sagepub.com",
+    "icon": "🌐",
+    "url": "https://sagepub.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unesco_org",
+    "name": "unesco.org",
+    "icon": "🌐",
+    "url": "https://unesco.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mobile_de",
+    "name": "mobile.de",
+    "icon": "🌐",
+    "url": "https://mobile.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_juicyscore_com",
+    "name": "juicyscore.com",
+    "icon": "🌐",
+    "url": "https://juicyscore.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_usgovcloudapi_net",
+    "name": "usgovcloudapi.net",
+    "icon": "🌐",
+    "url": "https://usgovcloudapi.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telegraph_co_uk",
+    "name": "telegraph.co.uk",
+    "icon": "🌐",
+    "url": "https://telegraph.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_berkeley_edu",
+    "name": "berkeley.edu",
+    "icon": "🌐",
+    "url": "https://berkeley.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dyingbirds_com",
+    "name": "dyingbirds.com",
+    "icon": "🌐",
+    "url": "https://dyingbirds.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_usercontent_goog",
+    "name": "usercontent.goog",
+    "icon": "🌐",
+    "url": "https://usercontent.goog",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hotjar_com",
+    "name": "hotjar.com",
+    "icon": "🌐",
+    "url": "https://hotjar.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nintendo_com",
+    "name": "nintendo.com",
+    "icon": "🌐",
+    "url": "https://nintendo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gosuslugi_ru",
+    "name": "gosuslugi.ru",
+    "icon": "🌐",
+    "url": "https://gosuslugi.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sophos_com",
+    "name": "sophos.com",
+    "icon": "🌐",
+    "url": "https://sophos.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_techcrunch_com",
+    "name": "techcrunch.com",
+    "icon": "🌐",
+    "url": "https://techcrunch.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_avito_ru",
+    "name": "avito.ru",
+    "icon": "🌐",
+    "url": "https://avito.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amagi_tv",
+    "name": "amagi.tv",
+    "icon": "🌐",
+    "url": "https://amagi.tv",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hicloud_com",
+    "name": "hicloud.com",
+    "icon": "🌐",
+    "url": "https://hicloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_fr",
+    "name": "amazon.fr",
+    "icon": "🌐",
+    "url": "https://amazon.fr",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ks_cdn_com",
+    "name": "ks-cdn.com",
+    "icon": "🌐",
+    "url": "https://ks-cdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_ca",
+    "name": "amazon.ca",
+    "icon": "🌐",
+    "url": "https://amazon.ca",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wswebcdn_com",
+    "name": "wswebcdn.com",
+    "icon": "🌐",
+    "url": "https://wswebcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_accuweather_com",
+    "name": "accuweather.com",
+    "icon": "🌐",
+    "url": "https://accuweather.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_onetrust_com",
+    "name": "onetrust.com",
+    "icon": "🌐",
+    "url": "https://onetrust.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungapps_com",
+    "name": "samsungapps.com",
+    "icon": "🌐",
+    "url": "https://samsungapps.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_merriam_webster_com",
+    "name": "merriam-webster.com",
+    "icon": "🌐",
+    "url": "https://merriam-webster.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_share_dns_com",
+    "name": "share-dns.com",
+    "icon": "🌐",
+    "url": "https://share-dns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_verisign_com",
+    "name": "verisign.com",
+    "icon": "🌐",
+    "url": "https://verisign.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_intercom_io",
+    "name": "intercom.io",
+    "icon": "🌐",
+    "url": "https://intercom.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jotform_com",
+    "name": "jotform.com",
+    "icon": "🌐",
+    "url": "https://jotform.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hstgr_net",
+    "name": "hstgr.net",
+    "icon": "🌐",
+    "url": "https://hstgr.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msidentity_com",
+    "name": "msidentity.com",
+    "icon": "🌐",
+    "url": "https://msidentity.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_telephony_goog",
+    "name": "telephony.goog",
+    "icon": "🌐",
+    "url": "https://telephony.goog",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_herokudns_com",
+    "name": "herokudns.com",
+    "icon": "🌐",
+    "url": "https://herokudns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ups_com",
+    "name": "ups.com",
+    "icon": "🌐",
+    "url": "https://ups.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shalltry_com",
+    "name": "shalltry.com",
+    "icon": "🌐",
+    "url": "https://shalltry.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_service_gov_uk",
+    "name": "service.gov.uk",
+    "icon": "🌐",
+    "url": "https://service.gov.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_meta_com",
+    "name": "meta.com",
+    "icon": "🌐",
+    "url": "https://meta.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_stackadapt_com",
+    "name": "stackadapt.com",
+    "icon": "🌐",
+    "url": "https://stackadapt.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tencent_com",
+    "name": "tencent.com",
+    "icon": "🌐",
+    "url": "https://tencent.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bytedns1_com",
+    "name": "bytedns1.com",
+    "icon": "🌐",
+    "url": "https://bytedns1.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_optimizely_com",
+    "name": "optimizely.com",
+    "icon": "🌐",
+    "url": "https://optimizely.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_iso_org",
+    "name": "iso.org",
+    "icon": "🌐",
+    "url": "https://iso.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_goskope_com",
+    "name": "goskope.com",
+    "icon": "🌐",
+    "url": "https://goskope.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_loc_gov",
+    "name": "loc.gov",
+    "icon": "🌐",
+    "url": "https://loc.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_immedia_semi_com",
+    "name": "immedia-semi.com",
+    "icon": "🌐",
+    "url": "https://immedia-semi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_box_com",
+    "name": "box.com",
+    "icon": "🌐",
+    "url": "https://box.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bitrix24_ru",
+    "name": "bitrix24.ru",
+    "icon": "🌐",
+    "url": "https://bitrix24.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_smaato_net",
+    "name": "smaato.net",
+    "icon": "🌐",
+    "url": "https://smaato.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_msedge_net",
+    "name": "t-msedge.net",
+    "icon": "🌐",
+    "url": "https://t-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_2gis_com",
+    "name": "2gis.com",
+    "icon": "🌐",
+    "url": "https://2gis.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_in",
+    "name": "amazon.in",
+    "icon": "🌐",
+    "url": "https://amazon.in",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_elpais_com",
+    "name": "elpais.com",
+    "icon": "🌐",
+    "url": "https://elpais.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nike_com",
+    "name": "nike.com",
+    "icon": "🌐",
+    "url": "https://nike.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bamgrid_com",
+    "name": "bamgrid.com",
+    "icon": "🌐",
+    "url": "https://bamgrid.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_redhat_com",
+    "name": "redhat.com",
+    "icon": "🌐",
+    "url": "https://redhat.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_primevideo_com",
+    "name": "primevideo.com",
+    "icon": "🌐",
+    "url": "https://primevideo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ring_com",
+    "name": "ring.com",
+    "icon": "🌐",
+    "url": "https://ring.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bidswitch_net",
+    "name": "bidswitch.net",
+    "icon": "🌐",
+    "url": "https://bidswitch.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungacr_com",
+    "name": "samsungacr.com",
+    "icon": "🌐",
+    "url": "https://samsungacr.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_translate_goog",
+    "name": "translate.goog",
+    "icon": "🌐",
+    "url": "https://translate.goog",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_inner_active_mobi",
+    "name": "inner-active.mobi",
+    "icon": "🌐",
+    "url": "https://inner-active.mobi",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flurry_com",
+    "name": "flurry.com",
+    "icon": "🌐",
+    "url": "https://flurry.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_easebar_com",
+    "name": "easebar.com",
+    "icon": "🌐",
+    "url": "https://easebar.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_surveymonkey_com",
+    "name": "surveymonkey.com",
+    "icon": "🌐",
+    "url": "https://surveymonkey.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_beget_ru",
+    "name": "beget.ru",
+    "icon": "🌐",
+    "url": "https://beget.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sharethrough_com",
+    "name": "sharethrough.com",
+    "icon": "🌐",
+    "url": "https://sharethrough.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_palmplaystore_com",
+    "name": "palmplaystore.com",
+    "icon": "🌐",
+    "url": "https://palmplaystore.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_enacdn_net",
+    "name": "enacdn.net",
+    "icon": "🌐",
+    "url": "https://enacdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cambridge_org",
+    "name": "cambridge.org",
+    "icon": "🌐",
+    "url": "https://cambridge.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xhamster_com",
+    "name": "xhamster.com",
+    "icon": "🌐",
+    "url": "https://xhamster.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_resolver_arpa",
+    "name": "resolver.arpa",
+    "icon": "🌐",
+    "url": "https://resolver.arpa",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kick_com",
+    "name": "kick.com",
+    "icon": "🌐",
+    "url": "https://kick.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lemonde_fr",
+    "name": "lemonde.fr",
+    "icon": "🌐",
+    "url": "https://lemonde.fr",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_imrworldwide_com",
+    "name": "imrworldwide.com",
+    "icon": "🌐",
+    "url": "https://imrworldwide.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ad_tech_ru",
+    "name": "ad-tech.ru",
+    "icon": "🌐",
+    "url": "https://ad-tech.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_anydesk_com",
+    "name": "anydesk.com",
+    "icon": "🌐",
+    "url": "https://anydesk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yelp_com",
+    "name": "yelp.com",
+    "icon": "🌐",
+    "url": "https://yelp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cbsnews_com",
+    "name": "cbsnews.com",
+    "icon": "🌐",
+    "url": "https://cbsnews.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_uber_com",
+    "name": "uber.com",
+    "icon": "🌐",
+    "url": "https://uber.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ovh_net",
+    "name": "ovh.net",
+    "icon": "🌐",
+    "url": "https://ovh.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fb_com",
+    "name": "fb.com",
+    "icon": "🌐",
+    "url": "https://fb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_maricopa_gov",
+    "name": "maricopa.gov",
+    "icon": "🌐",
+    "url": "https://maricopa.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_stripchat_com",
+    "name": "stripchat.com",
+    "icon": "🌐",
+    "url": "https://stripchat.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_binance_com",
+    "name": "binance.com",
+    "icon": "🌐",
+    "url": "https://binance.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pvp_net",
+    "name": "pvp.net",
+    "icon": "🌐",
+    "url": "https://pvp.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_es",
+    "name": "amazon.es",
+    "icon": "🌐",
+    "url": "https://amazon.es",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_reverse_it",
+    "name": "reverse.it",
+    "icon": "🌐",
+    "url": "https://reverse.it",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamaitechnologies_com",
+    "name": "akamaitechnologies.com",
+    "icon": "🌐",
+    "url": "https://akamaitechnologies.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_typekit_net",
+    "name": "typekit.net",
+    "icon": "🌐",
+    "url": "https://typekit.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_certcenter_com",
+    "name": "certcenter.com",
+    "icon": "🌐",
+    "url": "https://certcenter.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bugsnag_com",
+    "name": "bugsnag.com",
+    "icon": "🌐",
+    "url": "https://bugsnag.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fda_gov",
+    "name": "fda.gov",
+    "icon": "🌐",
+    "url": "https://fda.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_conviva_com",
+    "name": "conviva.com",
+    "icon": "🌐",
+    "url": "https://conviva.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_itch_io",
+    "name": "itch.io",
+    "icon": "🌐",
+    "url": "https://itch.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ya_ru",
+    "name": "ya.ru",
+    "icon": "🌐",
+    "url": "https://ya.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dailymail_co_uk",
+    "name": "dailymail.co.uk",
+    "icon": "🌐",
+    "url": "https://dailymail.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_360_cn",
+    "name": "360.cn",
+    "icon": "🌐",
+    "url": "https://360.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rustore_ru",
+    "name": "rustore.ru",
+    "icon": "🌐",
+    "url": "https://rustore.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_oneme_ru",
+    "name": "oneme.ru",
+    "icon": "🌐",
+    "url": "https://oneme.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_outbrain_com",
+    "name": "outbrain.com",
+    "icon": "🌐",
+    "url": "https://outbrain.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_perplexity_ai",
+    "name": "perplexity.ai",
+    "icon": "🌐",
+    "url": "https://perplexity.ai",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sentinelone_net",
+    "name": "sentinelone.net",
+    "icon": "🌐",
+    "url": "https://sentinelone.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pinimg_com",
+    "name": "pinimg.com",
+    "icon": "🌐",
+    "url": "https://pinimg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fontawesome_com",
+    "name": "fontawesome.com",
+    "icon": "🌐",
+    "url": "https://fontawesome.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cookielaw_org",
+    "name": "cookielaw.org",
+    "icon": "🌐",
+    "url": "https://cookielaw.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hihonorcloud_com",
+    "name": "hihonorcloud.com",
+    "icon": "🌐",
+    "url": "https://hihonorcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdn20_com",
+    "name": "cdn20.com",
+    "icon": "🌐",
+    "url": "https://cdn20.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_linode_com",
+    "name": "linode.com",
+    "icon": "🌐",
+    "url": "https://linode.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_it",
+    "name": "amazon.it",
+    "icon": "🌐",
+    "url": "https://amazon.it",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_quantserve_com",
+    "name": "quantserve.com",
+    "icon": "🌐",
+    "url": "https://quantserve.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hugedomains_com",
+    "name": "hugedomains.com",
+    "icon": "🌐",
+    "url": "https://hugedomains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_googlezip_net",
+    "name": "googlezip.net",
+    "icon": "🌐",
+    "url": "https://googlezip.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_alipaydns_com",
+    "name": "alipaydns.com",
+    "icon": "🌐",
+    "url": "https://alipaydns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gumgum_com",
+    "name": "gumgum.com",
+    "icon": "🌐",
+    "url": "https://gumgum.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_independent_co_uk",
+    "name": "independent.co.uk",
+    "icon": "🌐",
+    "url": "https://independent.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zpath_net",
+    "name": "zpath.net",
+    "icon": "🌐",
+    "url": "https://zpath.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rfc_editor_org",
+    "name": "rfc-editor.org",
+    "icon": "🌐",
+    "url": "https://rfc-editor.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gtm_a2b2_com",
+    "name": "gtm-a2b2.com",
+    "icon": "🌐",
+    "url": "https://gtm-a2b2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_asus_com",
+    "name": "asus.com",
+    "icon": "🌐",
+    "url": "https://asus.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mediafire_com",
+    "name": "mediafire.com",
+    "icon": "🌐",
+    "url": "https://mediafire.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shopeemobile_com",
+    "name": "shopeemobile.com",
+    "icon": "🌐",
+    "url": "https://shopeemobile.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cnet_com",
+    "name": "cnet.com",
+    "icon": "🌐",
+    "url": "https://cnet.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eeroup_com",
+    "name": "eeroup.com",
+    "icon": "🌐",
+    "url": "https://eeroup.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ngenix_net",
+    "name": "ngenix.net",
+    "icon": "🌐",
+    "url": "https://ngenix.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bidr_io",
+    "name": "bidr.io",
+    "icon": "🌐",
+    "url": "https://bidr.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shopee_co_id",
+    "name": "shopee.co.id",
+    "icon": "🌐",
+    "url": "https://shopee.co.id",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nel_goog",
+    "name": "nel.goog",
+    "icon": "🌐",
+    "url": "https://nel.goog",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_globalsign_com",
+    "name": "globalsign.com",
+    "icon": "🌐",
+    "url": "https://globalsign.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wb_ru",
+    "name": "wb.ru",
+    "icon": "🌐",
+    "url": "https://wb.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_creativecdn_com",
+    "name": "creativecdn.com",
+    "icon": "🌐",
+    "url": "https://creativecdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dashnxdomain_net",
+    "name": "dashnxdomain.net",
+    "icon": "🌐",
+    "url": "https://dashnxdomain.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_viber_com",
+    "name": "viber.com",
+    "icon": "🌐",
+    "url": "https://viber.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_python_org",
+    "name": "python.org",
+    "icon": "🌐",
+    "url": "https://python.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bild_de",
+    "name": "bild.de",
+    "icon": "🌐",
+    "url": "https://bild.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yieldmo_com",
+    "name": "yieldmo.com",
+    "icon": "🌐",
+    "url": "https://yieldmo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dbankcloud_com",
+    "name": "dbankcloud.com",
+    "icon": "🌐",
+    "url": "https://dbankcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_imgsmail_ru",
+    "name": "imgsmail.ru",
+    "icon": "🌐",
+    "url": "https://imgsmail.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_craigslist_org",
+    "name": "craigslist.org",
+    "icon": "🌐",
+    "url": "https://craigslist.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_homedepot_com",
+    "name": "homedepot.com",
+    "icon": "🌐",
+    "url": "https://homedepot.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_my_com",
+    "name": "my.com",
+    "icon": "🌐",
+    "url": "https://my.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_agkn_com",
+    "name": "agkn.com",
+    "icon": "🌐",
+    "url": "https://agkn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dnse0_com",
+    "name": "dnse0.com",
+    "icon": "🌐",
+    "url": "https://dnse0.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_co_uk",
+    "name": "google.co.uk",
+    "icon": "🌐",
+    "url": "https://google.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_livejournal_com",
+    "name": "livejournal.com",
+    "icon": "🌐",
+    "url": "https://livejournal.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_g_co",
+    "name": "g.co",
+    "icon": "🌐",
+    "url": "https://g.co",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_uk_com",
+    "name": "uk.com",
+    "icon": "🌐",
+    "url": "https://uk.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_safebrowsing_apple",
+    "name": "safebrowsing.apple",
+    "icon": "🌐",
+    "url": "https://safebrowsing.apple",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wpguardian_com",
+    "name": "wpguardian.com",
+    "icon": "🌐",
+    "url": "https://wpguardian.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mailchimp_com",
+    "name": "mailchimp.com",
+    "icon": "🌐",
+    "url": "https://mailchimp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wpguardian_io",
+    "name": "wpguardian.io",
+    "icon": "🌐",
+    "url": "https://wpguardian.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_1rx_io",
+    "name": "1rx.io",
+    "icon": "🌐",
+    "url": "https://1rx.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_webempresa_eu",
+    "name": "webempresa.eu",
+    "icon": "🌐",
+    "url": "https://webempresa.eu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mlb_com",
+    "name": "mlb.com",
+    "icon": "🌐",
+    "url": "https://mlb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nikkei_com",
+    "name": "nikkei.com",
+    "icon": "🌐",
+    "url": "https://nikkei.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bestbuy_com",
+    "name": "bestbuy.com",
+    "icon": "🌐",
+    "url": "https://bestbuy.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yahoodns_net",
+    "name": "yahoodns.net",
+    "icon": "🌐",
+    "url": "https://yahoodns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_criteo_net",
+    "name": "criteo.net",
+    "icon": "🌐",
+    "url": "https://criteo.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_imgur_com",
+    "name": "imgur.com",
+    "icon": "🌐",
+    "url": "https://imgur.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_welt_de",
+    "name": "welt.de",
+    "icon": "🌐",
+    "url": "https://welt.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_supabase_co",
+    "name": "supabase.co",
+    "icon": "🌐",
+    "url": "https://supabase.co",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wattpad_com",
+    "name": "wattpad.com",
+    "icon": "🌐",
+    "url": "https://wattpad.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_steamstatic_com",
+    "name": "steamstatic.com",
+    "icon": "🌐",
+    "url": "https://steamstatic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_shopee_com_br",
+    "name": "shopee.com.br",
+    "icon": "🌐",
+    "url": "https://shopee.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdnhwc1_com",
+    "name": "cdnhwc1.com",
+    "icon": "🌐",
+    "url": "https://cdnhwc1.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_marriott_com",
+    "name": "marriott.com",
+    "icon": "🌐",
+    "url": "https://marriott.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zoho_com",
+    "name": "zoho.com",
+    "icon": "🌐",
+    "url": "https://zoho.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mckinsey_com",
+    "name": "mckinsey.com",
+    "icon": "🌐",
+    "url": "https://mckinsey.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nstld_com",
+    "name": "nstld.com",
+    "icon": "🌐",
+    "url": "https://nstld.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_crwdcntrl_net",
+    "name": "crwdcntrl.net",
+    "icon": "🌐",
+    "url": "https://crwdcntrl.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zillow_com",
+    "name": "zillow.com",
+    "icon": "🌐",
+    "url": "https://zillow.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ovscdns_com",
+    "name": "ovscdns.com",
+    "icon": "🌐",
+    "url": "https://ovscdns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sedo_com",
+    "name": "sedo.com",
+    "icon": "🌐",
+    "url": "https://sedo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_moloco_com",
+    "name": "moloco.com",
+    "icon": "🌐",
+    "url": "https://moloco.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_samsungosp_com",
+    "name": "samsungosp.com",
+    "icon": "🌐",
+    "url": "https://samsungosp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ameblo_jp",
+    "name": "ameblo.jp",
+    "icon": "🌐",
+    "url": "https://ameblo.jp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lenovo_com",
+    "name": "lenovo.com",
+    "icon": "🌐",
+    "url": "https://lenovo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_recaptcha_net",
+    "name": "recaptcha.net",
+    "icon": "🌐",
+    "url": "https://recaptcha.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dv_tech",
+    "name": "dv.tech",
+    "icon": "🌐",
+    "url": "https://dv.tech",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adjust_com",
+    "name": "adjust.com",
+    "icon": "🌐",
+    "url": "https://adjust.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rakuten_com",
+    "name": "rakuten.com",
+    "icon": "🌐",
+    "url": "https://rakuten.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_prnewswire_com",
+    "name": "prnewswire.com",
+    "icon": "🌐",
+    "url": "https://prnewswire.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_discordapp_com",
+    "name": "discordapp.com",
+    "icon": "🌐",
+    "url": "https://discordapp.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sc_cdn_net",
+    "name": "sc-cdn.net",
+    "icon": "🌐",
+    "url": "https://sc-cdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_akamaitech_net",
+    "name": "akamaitech.net",
+    "icon": "🌐",
+    "url": "https://akamaitech.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nintendo_net",
+    "name": "nintendo.net",
+    "icon": "🌐",
+    "url": "https://nintendo.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_google_com_br",
+    "name": "google.com.br",
+    "icon": "🌐",
+    "url": "https://google.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ozone_ru",
+    "name": "ozone.ru",
+    "icon": "🌐",
+    "url": "https://ozone.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fiverr_com",
+    "name": "fiverr.com",
+    "icon": "🌐",
+    "url": "https://fiverr.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_disneyplus_com",
+    "name": "disneyplus.com",
+    "icon": "🌐",
+    "url": "https://disneyplus.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tubi_io",
+    "name": "tubi.io",
+    "icon": "🌐",
+    "url": "https://tubi.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_erome_com",
+    "name": "erome.com",
+    "icon": "🌐",
+    "url": "https://erome.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_netlify_app",
+    "name": "netlify.app",
+    "icon": "🌐",
+    "url": "https://netlify.app",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_people_com",
+    "name": "people.com",
+    "icon": "🌐",
+    "url": "https://people.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_liadm_com",
+    "name": "liadm.com",
+    "icon": "🌐",
+    "url": "https://liadm.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_33across_com",
+    "name": "33across.com",
+    "icon": "🌐",
+    "url": "https://33across.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wcdnga_com",
+    "name": "wcdnga.com",
+    "icon": "🌐",
+    "url": "https://wcdnga.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fbsbx_com",
+    "name": "fbsbx.com",
+    "icon": "🌐",
+    "url": "https://fbsbx.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_onlyfans_com",
+    "name": "onlyfans.com",
+    "icon": "🌐",
+    "url": "https://onlyfans.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mixpanel_com",
+    "name": "mixpanel.com",
+    "icon": "🌐",
+    "url": "https://mixpanel.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_zoom_com",
+    "name": "zoom.com",
+    "icon": "🌐",
+    "url": "https://zoom.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_statuspage_io",
+    "name": "statuspage.io",
+    "icon": "🌐",
+    "url": "https://statuspage.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_usps_com",
+    "name": "usps.com",
+    "icon": "🌐",
+    "url": "https://usps.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bytefcdn_com",
+    "name": "bytefcdn.com",
+    "icon": "🌐",
+    "url": "https://bytefcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_a_mo_net",
+    "name": "a-mo.net",
+    "icon": "🌐",
+    "url": "https://a-mo.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_usda_gov",
+    "name": "usda.gov",
+    "icon": "🌐",
+    "url": "https://usda.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_teads_tv",
+    "name": "teads.tv",
+    "icon": "🌐",
+    "url": "https://teads.tv",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_liftoff_io",
+    "name": "liftoff.io",
+    "icon": "🌐",
+    "url": "https://liftoff.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_agora_io",
+    "name": "agora.io",
+    "icon": "🌐",
+    "url": "https://agora.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vivo_com_cn",
+    "name": "vivo.com.cn",
+    "icon": "🌐",
+    "url": "https://vivo.com.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_life360_com",
+    "name": "life360.com",
+    "icon": "🌐",
+    "url": "https://life360.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flipkart_com",
+    "name": "flipkart.com",
+    "icon": "🌐",
+    "url": "https://flipkart.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nodeflix_net",
+    "name": "nodeflix.net",
+    "icon": "🌐",
+    "url": "https://nodeflix.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kunluncan_com",
+    "name": "kunluncan.com",
+    "icon": "🌐",
+    "url": "https://kunluncan.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_focus_de",
+    "name": "focus.de",
+    "icon": "🌐",
+    "url": "https://focus.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_discogs_com",
+    "name": "discogs.com",
+    "icon": "🌐",
+    "url": "https://discogs.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_auth0_com",
+    "name": "auth0.com",
+    "icon": "🌐",
+    "url": "https://auth0.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adform_net",
+    "name": "adform.net",
+    "icon": "🌐",
+    "url": "https://adform.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_azure_devices_net",
+    "name": "azure-devices.net",
+    "icon": "🌐",
+    "url": "https://azure-devices.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_academia_edu",
+    "name": "academia.edu",
+    "icon": "🌐",
+    "url": "https://academia.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_stackexchange_com",
+    "name": "stackexchange.com",
+    "icon": "🌐",
+    "url": "https://stackexchange.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_appspot_com",
+    "name": "appspot.com",
+    "icon": "🌐",
+    "url": "https://appspot.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rings_solutions",
+    "name": "rings.solutions",
+    "icon": "🌐",
+    "url": "https://rings.solutions",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_seznam_cz",
+    "name": "seznam.cz",
+    "icon": "🌐",
+    "url": "https://seznam.cz",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spiegel_de",
+    "name": "spiegel.de",
+    "icon": "🌐",
+    "url": "https://spiegel.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_arcgis_com",
+    "name": "arcgis.com",
+    "icon": "🌐",
+    "url": "https://arcgis.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_synology_com",
+    "name": "synology.com",
+    "icon": "🌐",
+    "url": "https://synology.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_px_cloud_net",
+    "name": "px-cloud.net",
+    "icon": "🌐",
+    "url": "https://px-cloud.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xvideos_com",
+    "name": "xvideos.com",
+    "icon": "🌐",
+    "url": "https://xvideos.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ebay_de",
+    "name": "ebay.de",
+    "icon": "🌐",
+    "url": "https://ebay.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_me_com",
+    "name": "me.com",
+    "icon": "🌐",
+    "url": "https://me.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_chess_com",
+    "name": "chess.com",
+    "icon": "🌐",
+    "url": "https://chess.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudsink_net",
+    "name": "cloudsink.net",
+    "icon": "🌐",
+    "url": "https://cloudsink.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_theverge_com",
+    "name": "theverge.com",
+    "icon": "🌐",
+    "url": "https://theverge.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_turn_com",
+    "name": "turn.com",
+    "icon": "🌐",
+    "url": "https://turn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_agoda_com",
+    "name": "agoda.com",
+    "icon": "🌐",
+    "url": "https://agoda.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gov_br",
+    "name": "gov.br",
+    "icon": "🌐",
+    "url": "https://gov.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_frontiersin_org",
+    "name": "frontiersin.org",
+    "icon": "🌐",
+    "url": "https://frontiersin.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_com_br",
+    "name": "amazon.com.br",
+    "icon": "🌐",
+    "url": "https://amazon.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vivoglobal_com",
+    "name": "vivoglobal.com",
+    "icon": "🌐",
+    "url": "https://vivoglobal.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unpkg_com",
+    "name": "unpkg.com",
+    "icon": "🌐",
+    "url": "https://unpkg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_incapdns_net",
+    "name": "incapdns.net",
+    "icon": "🌐",
+    "url": "https://incapdns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_co_za",
+    "name": "amazon.co.za",
+    "icon": "🌐",
+    "url": "https://amazon.co.za",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pexels_com",
+    "name": "pexels.com",
+    "icon": "🌐",
+    "url": "https://pexels.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_deloitte_com",
+    "name": "deloitte.com",
+    "icon": "🌐",
+    "url": "https://deloitte.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cursor_sh",
+    "name": "cursor.sh",
+    "icon": "🌐",
+    "url": "https://cursor.sh",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_parklogic_com",
+    "name": "parklogic.com",
+    "icon": "🌐",
+    "url": "https://parklogic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ebay_co_uk",
+    "name": "ebay.co.uk",
+    "icon": "🌐",
+    "url": "https://ebay.co.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_biblegateway_com",
+    "name": "biblegateway.com",
+    "icon": "🌐",
+    "url": "https://biblegateway.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_adgrx_com",
+    "name": "adgrx.com",
+    "icon": "🌐",
+    "url": "https://adgrx.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_myspace_com",
+    "name": "myspace.com",
+    "icon": "🌐",
+    "url": "https://myspace.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ssl_images_amazon_com",
+    "name": "ssl-images-amazon.com",
+    "icon": "🌐",
+    "url": "https://ssl-images-amazon.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_daum_net",
+    "name": "daum.net",
+    "icon": "🌐",
+    "url": "https://daum.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_privacy_mgmt_com",
+    "name": "privacy-mgmt.com",
+    "icon": "🌐",
+    "url": "https://privacy-mgmt.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pendo_io",
+    "name": "pendo.io",
+    "icon": "🌐",
+    "url": "https://pendo.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_onetag_sys_com",
+    "name": "onetag-sys.com",
+    "icon": "🌐",
+    "url": "https://onetag-sys.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_yellowblue_io",
+    "name": "yellowblue.io",
+    "icon": "🌐",
+    "url": "https://yellowblue.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_digitaloceanspaces_com",
+    "name": "digitaloceanspaces.com",
+    "icon": "🌐",
+    "url": "https://digitaloceanspaces.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pikabu_ru",
+    "name": "pikabu.ru",
+    "icon": "🌐",
+    "url": "https://pikabu.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jamfcloud_com",
+    "name": "jamfcloud.com",
+    "icon": "🌐",
+    "url": "https://jamfcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_unrulymedia_com",
+    "name": "unrulymedia.com",
+    "icon": "🌐",
+    "url": "https://unrulymedia.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_readthedocs_io",
+    "name": "readthedocs.io",
+    "icon": "🌐",
+    "url": "https://readthedocs.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_appcenter_ms",
+    "name": "appcenter.ms",
+    "icon": "🌐",
+    "url": "https://appcenter.ms",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_no_ip_com",
+    "name": "no-ip.com",
+    "icon": "🌐",
+    "url": "https://no-ip.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_worldbank_org",
+    "name": "worldbank.org",
+    "icon": "🌐",
+    "url": "https://worldbank.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cloudinary_com",
+    "name": "cloudinary.com",
+    "icon": "🌐",
+    "url": "https://cloudinary.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mercadolivre_com_br",
+    "name": "mercadolivre.com.br",
+    "icon": "🌐",
+    "url": "https://mercadolivre.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nbcnews_com",
+    "name": "nbcnews.com",
+    "icon": "🌐",
+    "url": "https://nbcnews.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pornhub_com",
+    "name": "pornhub.com",
+    "icon": "🌐",
+    "url": "https://pornhub.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_consultant_ru",
+    "name": "consultant.ru",
+    "icon": "🌐",
+    "url": "https://consultant.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bankofamerica_com",
+    "name": "bankofamerica.com",
+    "icon": "🌐",
+    "url": "https://bankofamerica.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hbr_org",
+    "name": "hbr.org",
+    "icon": "🌐",
+    "url": "https://hbr.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wyzecam_com",
+    "name": "wyzecam.com",
+    "icon": "🌐",
+    "url": "https://wyzecam.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kleinanzeigen_de",
+    "name": "kleinanzeigen.de",
+    "icon": "🌐",
+    "url": "https://kleinanzeigen.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_allaboutcookies_org",
+    "name": "allaboutcookies.org",
+    "icon": "🌐",
+    "url": "https://allaboutcookies.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_porkbun_com",
+    "name": "porkbun.com",
+    "icon": "🌐",
+    "url": "https://porkbun.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_figma_com",
+    "name": "figma.com",
+    "icon": "🌐",
+    "url": "https://figma.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_epa_gov",
+    "name": "epa.gov",
+    "icon": "🌐",
+    "url": "https://epa.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_princeton_edu",
+    "name": "princeton.edu",
+    "icon": "🌐",
+    "url": "https://princeton.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dnse2_com",
+    "name": "dnse2.com",
+    "icon": "🌐",
+    "url": "https://dnse2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_fwmrm_net",
+    "name": "fwmrm.net",
+    "icon": "🌐",
+    "url": "https://fwmrm.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_s1_msedge_net",
+    "name": "t-s1-msedge.net",
+    "icon": "🌐",
+    "url": "https://t-s1-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lg_com",
+    "name": "lg.com",
+    "icon": "🌐",
+    "url": "https://lg.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdnhwc2_com",
+    "name": "cdnhwc2.com",
+    "icon": "🌐",
+    "url": "https://cdnhwc2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_disqus_com",
+    "name": "disqus.com",
+    "icon": "🌐",
+    "url": "https://disqus.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_latimes_com",
+    "name": "latimes.com",
+    "icon": "🌐",
+    "url": "https://latimes.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_smilewanted_com",
+    "name": "smilewanted.com",
+    "icon": "🌐",
+    "url": "https://smilewanted.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hostgator_com_br",
+    "name": "hostgator.com.br",
+    "icon": "🌐",
+    "url": "https://hostgator.com.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_service_now_com",
+    "name": "service-now.com",
+    "icon": "🌐",
+    "url": "https://service-now.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_coupang_com",
+    "name": "coupang.com",
+    "icon": "🌐",
+    "url": "https://coupang.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_networkadvertising_org",
+    "name": "networkadvertising.org",
+    "icon": "🌐",
+    "url": "https://networkadvertising.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_otto_de",
+    "name": "otto.de",
+    "icon": "🌐",
+    "url": "https://otto.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_qualtrics_com",
+    "name": "qualtrics.com",
+    "icon": "🌐",
+    "url": "https://qualtrics.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mayoclinic_org",
+    "name": "mayoclinic.org",
+    "icon": "🌐",
+    "url": "https://mayoclinic.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_seedtag_com",
+    "name": "seedtag.com",
+    "icon": "🌐",
+    "url": "https://seedtag.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_classlink_com",
+    "name": "classlink.com",
+    "icon": "🌐",
+    "url": "https://classlink.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tailscale_com",
+    "name": "tailscale.com",
+    "icon": "🌐",
+    "url": "https://tailscale.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_spamhaus_org",
+    "name": "spamhaus.org",
+    "icon": "🌐",
+    "url": "https://spamhaus.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ddns_net",
+    "name": "ddns.net",
+    "icon": "🌐",
+    "url": "https://ddns.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_msftauth_net",
+    "name": "msftauth.net",
+    "icon": "🌐",
+    "url": "https://msftauth.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xiaohongshu_com",
+    "name": "xiaohongshu.com",
+    "icon": "🌐",
+    "url": "https://xiaohongshu.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_patreon_com",
+    "name": "patreon.com",
+    "icon": "🌐",
+    "url": "https://patreon.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amp_endpoint2_com",
+    "name": "amp-endpoint2.com",
+    "icon": "🌐",
+    "url": "https://amp-endpoint2.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_note_com",
+    "name": "note.com",
+    "icon": "🌐",
+    "url": "https://note.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazonalexa_com",
+    "name": "amazonalexa.com",
+    "icon": "🌐",
+    "url": "https://amazonalexa.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_libp2p_direct",
+    "name": "libp2p.direct",
+    "icon": "🌐",
+    "url": "https://libp2p.direct",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_genius_com",
+    "name": "genius.com",
+    "icon": "🌐",
+    "url": "https://genius.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_repubblica_it",
+    "name": "repubblica.it",
+    "icon": "🌐",
+    "url": "https://repubblica.it",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wbbasket_ru",
+    "name": "wbbasket.ru",
+    "icon": "🌐",
+    "url": "https://wbbasket.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_state_gov",
+    "name": "state.gov",
+    "icon": "🌐",
+    "url": "https://state.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flashtalking_com",
+    "name": "flashtalking.com",
+    "icon": "🌐",
+    "url": "https://flashtalking.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_everesttech_net",
+    "name": "everesttech.net",
+    "icon": "🌐",
+    "url": "https://everesttech.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_volcgslb_com",
+    "name": "volcgslb.com",
+    "icon": "🌐",
+    "url": "https://volcgslb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eu_1_id5_sync_com",
+    "name": "eu-1-id5-sync.com",
+    "icon": "🌐",
+    "url": "https://eu-1-id5-sync.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cootlogix_com",
+    "name": "cootlogix.com",
+    "icon": "🌐",
+    "url": "https://cootlogix.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_youku_com",
+    "name": "youku.com",
+    "icon": "🌐",
+    "url": "https://youku.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nexusmods_com",
+    "name": "nexusmods.com",
+    "icon": "🌐",
+    "url": "https://nexusmods.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tiktokw_us",
+    "name": "tiktokw.us",
+    "icon": "🌐",
+    "url": "https://tiktokw.us",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_instructure_com",
+    "name": "instructure.com",
+    "icon": "🌐",
+    "url": "https://instructure.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_character_ai",
+    "name": "character.ai",
+    "icon": "🌐",
+    "url": "https://character.ai",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_odoo_com",
+    "name": "odoo.com",
+    "icon": "🌐",
+    "url": "https://odoo.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jetbrains_com",
+    "name": "jetbrains.com",
+    "icon": "🌐",
+    "url": "https://jetbrains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_leiniao_com",
+    "name": "leiniao.com",
+    "icon": "🌐",
+    "url": "https://leiniao.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sknt_ru",
+    "name": "sknt.ru",
+    "icon": "🌐",
+    "url": "https://sknt.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_com_au",
+    "name": "amazon.com.au",
+    "icon": "🌐",
+    "url": "https://amazon.com.au",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mercadolibre_com_ar",
+    "name": "mercadolibre.com.ar",
+    "icon": "🌐",
+    "url": "https://mercadolibre.com.ar",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mikrotik_com",
+    "name": "mikrotik.com",
+    "icon": "🌐",
+    "url": "https://mikrotik.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_contentsquare_net",
+    "name": "contentsquare.net",
+    "icon": "🌐",
+    "url": "https://contentsquare.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bund_de",
+    "name": "bund.de",
+    "icon": "🌐",
+    "url": "https://bund.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_chaturbate_com",
+    "name": "chaturbate.com",
+    "icon": "🌐",
+    "url": "https://chaturbate.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_corriere_it",
+    "name": "corriere.it",
+    "icon": "🌐",
+    "url": "https://corriere.it",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ancestry_com",
+    "name": "ancestry.com",
+    "icon": "🌐",
+    "url": "https://ancestry.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_docker_io",
+    "name": "docker.io",
+    "icon": "🌐",
+    "url": "https://docker.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_washington_edu",
+    "name": "washington.edu",
+    "icon": "🌐",
+    "url": "https://washington.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_go_mpulse_net",
+    "name": "go-mpulse.net",
+    "icon": "🌐",
+    "url": "https://go-mpulse.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_eporner_com",
+    "name": "eporner.com",
+    "icon": "🌐",
+    "url": "https://eporner.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_curseforge_com",
+    "name": "curseforge.com",
+    "icon": "🌐",
+    "url": "https://curseforge.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_buydomains_com",
+    "name": "buydomains.com",
+    "icon": "🌐",
+    "url": "https://buydomains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_lowes_com",
+    "name": "lowes.com",
+    "icon": "🌐",
+    "url": "https://lowes.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hm_com",
+    "name": "hm.com",
+    "icon": "🌐",
+    "url": "https://hm.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdn_vk_ru",
+    "name": "cdn-vk.ru",
+    "icon": "🌐",
+    "url": "https://cdn-vk.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_cdnvideo_ru",
+    "name": "cdnvideo.ru",
+    "icon": "🌐",
+    "url": "https://cdnvideo.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_app_ads_services_com",
+    "name": "app-ads-services.com",
+    "icon": "🌐",
+    "url": "https://app-ads-services.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_huffpost_com",
+    "name": "huffpost.com",
+    "icon": "🌐",
+    "url": "https://huffpost.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_change_org",
+    "name": "change.org",
+    "icon": "🌐",
+    "url": "https://change.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vkontakte_ru",
+    "name": "vkontakte.ru",
+    "icon": "🌐",
+    "url": "https://vkontakte.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ys7_com",
+    "name": "ys7.com",
+    "icon": "🌐",
+    "url": "https://ys7.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_a_msedge_net",
+    "name": "a-msedge.net",
+    "icon": "🌐",
+    "url": "https://a-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_opera_api_com",
+    "name": "opera-api.com",
+    "icon": "🌐",
+    "url": "https://opera-api.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vtwenty_com",
+    "name": "vtwenty.com",
+    "icon": "🌐",
+    "url": "https://vtwenty.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_trendyol_com",
+    "name": "trendyol.com",
+    "icon": "🌐",
+    "url": "https://trendyol.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_mailchi_mp",
+    "name": "mailchi.mp",
+    "icon": "🌐",
+    "url": "https://mailchi.mp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xnxx_com",
+    "name": "xnxx.com",
+    "icon": "🌐",
+    "url": "https://xnxx.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_singular_net",
+    "name": "singular.net",
+    "icon": "🌐",
+    "url": "https://singular.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_jd_com",
+    "name": "jd.com",
+    "icon": "🌐",
+    "url": "https://jd.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_caixa_gov_br",
+    "name": "caixa.gov.br",
+    "icon": "🌐",
+    "url": "https://caixa.gov.br",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xhamster46_desi",
+    "name": "xhamster46.desi",
+    "icon": "🌐",
+    "url": "https://xhamster46.desi",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kwaipros_com",
+    "name": "kwaipros.com",
+    "icon": "🌐",
+    "url": "https://kwaipros.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_4dex_io",
+    "name": "4dex.io",
+    "icon": "🌐",
+    "url": "https://4dex.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pbs_org",
+    "name": "pbs.org",
+    "icon": "🌐",
+    "url": "https://pbs.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_company_target_com",
+    "name": "company-target.com",
+    "icon": "🌐",
+    "url": "https://company-target.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_umich_edu",
+    "name": "umich.edu",
+    "icon": "🌐",
+    "url": "https://umich.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_btloader_com",
+    "name": "btloader.com",
+    "icon": "🌐",
+    "url": "https://btloader.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_sofascore_com",
+    "name": "sofascore.com",
+    "icon": "🌐",
+    "url": "https://sofascore.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_edgcdn_net",
+    "name": "edgcdn.net",
+    "icon": "🌐",
+    "url": "https://edgcdn.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flightradar24_com",
+    "name": "flightradar24.com",
+    "icon": "🌐",
+    "url": "https://flightradar24.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_it_com",
+    "name": "it.com",
+    "icon": "🌐",
+    "url": "https://it.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_rwwsje_com",
+    "name": "rwwsje.com",
+    "icon": "🌐",
+    "url": "https://rwwsje.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amemv_com",
+    "name": "amemv.com",
+    "icon": "🌐",
+    "url": "https://amemv.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_costco_com",
+    "name": "costco.com",
+    "icon": "🌐",
+    "url": "https://costco.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_orderbox_dns_com",
+    "name": "orderbox-dns.com",
+    "icon": "🌐",
+    "url": "https://orderbox-dns.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_flashscore_com",
+    "name": "flashscore.com",
+    "icon": "🌐",
+    "url": "https://flashscore.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gotinder_com",
+    "name": "gotinder.com",
+    "icon": "🌐",
+    "url": "https://gotinder.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_heytapmobi_com",
+    "name": "heytapmobi.com",
+    "icon": "🌐",
+    "url": "https://heytapmobi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_n_tv_de",
+    "name": "n-tv.de",
+    "icon": "🌐",
+    "url": "https://n-tv.de",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xing_com",
+    "name": "xing.com",
+    "icon": "🌐",
+    "url": "https://xing.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_clever_com",
+    "name": "clever.com",
+    "icon": "🌐",
+    "url": "https://clever.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ahacdn_me",
+    "name": "ahacdn.me",
+    "icon": "🌐",
+    "url": "https://ahacdn.me",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_presage_io",
+    "name": "presage.io",
+    "icon": "🌐",
+    "url": "https://presage.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_columbia_edu",
+    "name": "columbia.edu",
+    "icon": "🌐",
+    "url": "https://columbia.edu",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_inkuai_com",
+    "name": "inkuai.com",
+    "icon": "🌐",
+    "url": "https://inkuai.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_namecheaphosting_com",
+    "name": "namecheaphosting.com",
+    "icon": "🌐",
+    "url": "https://namecheaphosting.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_pixiv_net",
+    "name": "pixiv.net",
+    "icon": "🌐",
+    "url": "https://pixiv.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kwai_com",
+    "name": "kwai.com",
+    "icon": "🌐",
+    "url": "https://kwai.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ecosia_org",
+    "name": "ecosia.org",
+    "icon": "🌐",
+    "url": "https://ecosia.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ln_msedge_net",
+    "name": "ln-msedge.net",
+    "icon": "🌐",
+    "url": "https://ln-msedge.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_thenai_org",
+    "name": "thenai.org",
+    "icon": "🌐",
+    "url": "https://thenai.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_gpcloudservice_com",
+    "name": "gpcloudservice.com",
+    "icon": "🌐",
+    "url": "https://gpcloudservice.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nationalgeographic_com",
+    "name": "nationalgeographic.com",
+    "icon": "🌐",
+    "url": "https://nationalgeographic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_konami_net",
+    "name": "konami.net",
+    "icon": "🌐",
+    "url": "https://konami.net",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_miwifi_com",
+    "name": "miwifi.com",
+    "icon": "🌐",
+    "url": "https://miwifi.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_docomo_ne_jp",
+    "name": "docomo.ne.jp",
+    "icon": "🌐",
+    "url": "https://docomo.ne.jp",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_hilton_com",
+    "name": "hilton.com",
+    "icon": "🌐",
+    "url": "https://hilton.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_dbankcloud_ru",
+    "name": "dbankcloud.ru",
+    "icon": "🌐",
+    "url": "https://dbankcloud.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_oecd_org",
+    "name": "oecd.org",
+    "icon": "🌐",
+    "url": "https://oecd.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_transsion_os_com",
+    "name": "transsion-os.com",
+    "icon": "🌐",
+    "url": "https://transsion-os.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_t_mobile_com",
+    "name": "t-mobile.com",
+    "icon": "🌐",
+    "url": "https://t-mobile.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bol_com",
+    "name": "bol.com",
+    "icon": "🌐",
+    "url": "https://bol.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_amazon_com_mx",
+    "name": "amazon.com.mx",
+    "icon": "🌐",
+    "url": "https://amazon.com.mx",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_garmin_com",
+    "name": "garmin.com",
+    "icon": "🌐",
+    "url": "https://garmin.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_nextcloud_com",
+    "name": "nextcloud.com",
+    "icon": "🌐",
+    "url": "https://nextcloud.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_onesignal_com",
+    "name": "onesignal.com",
+    "icon": "🌐",
+    "url": "https://onesignal.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_attn_tv",
+    "name": "attn.tv",
+    "icon": "🌐",
+    "url": "https://attn.tv",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_manutouch_com_cn",
+    "name": "manutouch.com.cn",
+    "icon": "🌐",
+    "url": "https://manutouch.com.cn",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_epicgames_dev",
+    "name": "epicgames.dev",
+    "icon": "🌐",
+    "url": "https://epicgames.dev",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_kueezrtb_com",
+    "name": "kueezrtb.com",
+    "icon": "🌐",
+    "url": "https://kueezrtb.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_abovedomains_com",
+    "name": "abovedomains.com",
+    "icon": "🌐",
+    "url": "https://abovedomains.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_archiveofourown_org",
+    "name": "archiveofourown.org",
+    "icon": "🌐",
+    "url": "https://archiveofourown.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_whitehouse_gov",
+    "name": "whitehouse.gov",
+    "icon": "🌐",
+    "url": "https://whitehouse.gov",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ox_ac_uk",
+    "name": "ox.ac.uk",
+    "icon": "🌐",
+    "url": "https://ox.ac.uk",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_xhcdn_com",
+    "name": "xhcdn.com",
+    "icon": "🌐",
+    "url": "https://xhcdn.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_infobae_com",
+    "name": "infobae.com",
+    "icon": "🌐",
+    "url": "https://infobae.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_weforum_org",
+    "name": "weforum.org",
+    "icon": "🌐",
+    "url": "https://weforum.org",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_theatlantic_com",
+    "name": "theatlantic.com",
+    "icon": "🌐",
+    "url": "https://theatlantic.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_healthline_com",
+    "name": "healthline.com",
+    "icon": "🌐",
+    "url": "https://healthline.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_tbank_ru",
+    "name": "tbank.ru",
+    "icon": "🌐",
+    "url": "https://tbank.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_bidmachine_io",
+    "name": "bidmachine.io",
+    "icon": "🌐",
+    "url": "https://bidmachine.io",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_wise_com",
+    "name": "wise.com",
+    "icon": "🌐",
+    "url": "https://wise.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_deepseek_com",
+    "name": "deepseek.com",
+    "icon": "🌐",
+    "url": "https://deepseek.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_ouest_france_fr",
+    "name": "ouest-france.fr",
+    "icon": "🌐",
+    "url": "https://ouest-france.fr",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_vk_analytics_ru",
+    "name": "vk-analytics.ru",
+    "icon": "🌐",
+    "url": "https://vk-analytics.ru",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_statcounter_com",
+    "name": "statcounter.com",
+    "icon": "🌐",
+    "url": "https://statcounter.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_webmd_com",
+    "name": "webmd.com",
+    "icon": "🌐",
+    "url": "https://webmd.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  },
+  {
+    "id": "popular_investopedia_com",
+    "name": "investopedia.com",
+    "icon": "🌐",
+    "url": "https://investopedia.com",
+    "category": "Popularne strony",
+    "generic_icon": true
+  }
+]
