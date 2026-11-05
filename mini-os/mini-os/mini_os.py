@@ -19,6 +19,15 @@ from PySide6.QtWidgets import (
 from PySide6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 
 try:
+    from PySide6.QtMultimedia import (
+        QAudioInput, QAudioOutput, QMediaCaptureSession, QMediaDevices,
+        QMediaFormat, QMediaPlayer, QMediaRecorder,
+    )
+    AUDIO_AVAILABLE = True
+except Exception:
+    AUDIO_AVAILABLE = False
+
+try:
     from PySide6.QtWebEngineWidgets import QWebEngineView
     from PySide6.QtWebEngineCore import QWebEnginePage, QWebEngineProfile, QWebEngineSettings
     WEBENGINE_AVAILABLE = True
@@ -232,6 +241,7 @@ BUILTIN_DESKTOP_APPS = [
     {"id": "paint", "name": "Paint", "icon": "🎨", "color": "#7a3f22", "page": "paint"},
     {"id": "gallery", "name": "Galeria", "icon": "🖼", "color": "#343071", "page": "gallery"},
     {"id": "calculator", "name": "Kalkulator", "icon": "＋", "color": "#174d61", "page": "calculator"},
+    {"id": "voice_recorder", "name": "Dyktafon", "icon": "🎙️", "color": "#843b59", "page": "voice_recorder"},
 ]
 for folder in (ROOT, DATA, PHOTOS, SESSIONS):
     folder.mkdir(parents=True, exist_ok=True)
@@ -377,6 +387,12 @@ UI_EN_TRANSLATIONS = {
     "Galeria": "Gallery", "Aparat": "Camera", "Kalkulator": "Calculator", "Paint": "Paint",
     "Wyloguj z profilu": "Log out", "Uruchom ponownie": "Restart", "Wyłącz mini-OS": "Shut Down mini-OS",
     "Wróć do mini-OS": "Return to mini-OS", "Sesja i zapis": "Session & Save",
+    "Dyktafon": "Voice Recorder", "Nagraj": "Record", "Pauza": "Pause", "Wznów": "Resume",
+    "Zatrzymaj": "Stop", "Odtwórz": "Play", "Usuń nagranie": "Delete recording",
+    "Nagrania": "Recordings", "Brak nagrań": "No recordings yet",
+    "Gotowy do nagrywania": "Ready to record", "Nagrywanie…": "Recording…",
+    "Nagrywanie wstrzymane": "Recording paused", "Nagranie zapisane w folderze Nagrania": "Recording saved in Recordings",
+    "Pliki są zapisywane w folderze Nagrania tego profilu.": "Files are saved in this profile’s Recordings folder.",
     "mini_store": "mini_store", "Otwórz": "Open", "Zapisz": "Save", "Anuluj": "Cancel",
 }
 
@@ -504,12 +520,14 @@ def profile_user_directories(profile_id):
         "downloads": user_root / "Pobrane",
         "documents": user_root / "Dokumenty",
         "pictures": user_root / "Zdjęcia",
+        "recordings": user_root / "Nagrania",
     }
 
 def ensure_profile_user_directories(profile_id):
     directories = profile_user_directories(profile_id)
-    for key in ("downloads", "documents", "pictures"):
-        directories[key].mkdir(parents=True, exist_ok=True)
+    for key, directory in directories.items():
+        if key != "root":
+            directory.mkdir(parents=True, exist_ok=True)
 
     # Move existing profile photos into the visible Zdjęcia folder without
     # overwriting any files the user may already have there.
@@ -1405,6 +1423,12 @@ class MiniOS(QMainWindow):
         self.store_icon_pending = {}
         self.store_icon_widgets = {}
         self.app_browser = None
+        self.voice_capture_session = None
+        self.voice_audio_input = None
+        self.voice_recorder = None
+        self.voice_player = None
+        self.voice_audio_output = None
+        self.voice_recording_path = None
         self.update_check_pending = False
         self.latest_update_sha = None
         self.update_manual_check = False
@@ -1424,6 +1448,7 @@ class MiniOS(QMainWindow):
         self.make_store()
         self.make_games()
         self.make_camera()
+        self.make_voice_recorder()
         self.make_settings()
         self.make_files()
         self.make_notepad()
@@ -2939,6 +2964,225 @@ class MiniOS(QMainWindow):
         self.camera_hint = QLabel(f"Zdjęcia będą zapisywane w Galerii profilu „{self.username}”.")
         self.camera_hint.setWordWrap(True); self.camera_hint.setStyleSheet("color:#aab4ca;")
         root.addWidget(self.camera_hint)
+
+    def make_voice_recorder(self):
+        _page, root = self.page("voice_recorder")
+        root.addLayout(self.title_row("Dyktafon"))
+        self.voice_status = QLabel("Gotowy do nagrywania")
+        self.voice_status.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.voice_status.setStyleSheet("color:#aab4ca; font-size:18px;")
+        root.addWidget(self.voice_status)
+        self.voice_duration_label = QLabel("00:00")
+        self.voice_duration_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.voice_duration_label.setStyleSheet("font-size:52px; font-weight:600;")
+        root.addWidget(self.voice_duration_label)
+
+        controls = QHBoxLayout()
+        self.voice_record_button = QPushButton("●  Nagraj")
+        self.voice_record_button.setObjectName("accent")
+        self.voice_record_button.clicked.connect(self.start_voice_recording)
+        self.voice_pause_button = QPushButton("Pauza")
+        self.voice_pause_button.setEnabled(False)
+        self.voice_pause_button.clicked.connect(self.toggle_voice_recording_pause)
+        self.voice_stop_button = QPushButton("■  Zatrzymaj")
+        self.voice_stop_button.setEnabled(False)
+        self.voice_stop_button.clicked.connect(self.stop_voice_recording)
+        controls.addStretch(1)
+        controls.addWidget(self.voice_record_button)
+        controls.addWidget(self.voice_pause_button)
+        controls.addWidget(self.voice_stop_button)
+        controls.addStretch(1)
+        root.addLayout(controls)
+
+        root.addWidget(QLabel("Nagrania"))
+        self.voice_recordings_list = QListWidget()
+        self.voice_recordings_list.itemDoubleClicked.connect(lambda _item: self.play_selected_recording())
+        root.addWidget(self.voice_recordings_list, 1)
+        actions = QHBoxLayout()
+        self.voice_play_button = QPushButton("▶  Odtwórz")
+        self.voice_play_button.setEnabled(False)
+        self.voice_play_button.clicked.connect(self.play_selected_recording)
+        self.voice_delete_button = QPushButton("Usuń nagranie")
+        self.voice_delete_button.setEnabled(False)
+        self.voice_delete_button.clicked.connect(self.delete_selected_recording)
+        self.voice_recordings_list.currentItemChanged.connect(self.update_voice_selection_controls)
+        actions.addWidget(self.voice_play_button)
+        actions.addWidget(self.voice_delete_button)
+        actions.addStretch(1)
+        self.voice_folder_hint = QLabel("Pliki są zapisywane w folderze Nagrania tego profilu.")
+        self.voice_folder_hint.setWordWrap(True)
+        self.voice_folder_hint.setStyleSheet("color:#aab4ca;")
+        actions.addWidget(self.voice_folder_hint)
+        root.addLayout(actions)
+
+        if not AUDIO_AVAILABLE:
+            self.voice_status.setText("Nagrywanie audio nie jest dostępne w tej instalacji PySide6.")
+            self.voice_record_button.setEnabled(False)
+            return
+        try:
+            self.voice_audio_input = QAudioInput(self)
+            self.voice_capture_session = QMediaCaptureSession(self)
+            self.voice_capture_session.setAudioInput(self.voice_audio_input)
+            self.voice_recorder = QMediaRecorder(self)
+            self.voice_capture_session.setRecorder(self.voice_recorder)
+            self.voice_recorder.durationChanged.connect(self.update_voice_duration)
+            self.voice_recorder.recorderStateChanged.connect(self.update_voice_recorder_state)
+            self.voice_recorder.errorOccurred.connect(self.voice_recorder_error)
+            self.voice_player = QMediaPlayer(self)
+            self.voice_audio_output = QAudioOutput(self)
+            self.voice_player.setAudioOutput(self.voice_audio_output)
+            self.voice_player.playbackStateChanged.connect(self.update_voice_playback_state)
+            self.voice_player.errorOccurred.connect(self.voice_player_error)
+        except Exception as error:
+            self.voice_status.setText(f"Nie można uruchomić dyktafonu: {error}")
+            self.voice_record_button.setEnabled(False)
+
+    def start_voice_recording(self):
+        if not AUDIO_AVAILABLE or not self.voice_recorder:
+            return
+        device = QMediaDevices.defaultAudioInput()
+        if device.isNull():
+            QMessageBox.warning(self, "Dyktafon", "Nie znaleziono mikrofonu.")
+            return
+        self.voice_audio_input.setDevice(device)
+        recordings_dir = profile_user_directories(self.active_profile_id)["recordings"]
+        recordings_dir.mkdir(parents=True, exist_ok=True)
+        stamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        media_format = QMediaFormat()
+        try:
+            encode_mode = QMediaFormat.ConversionMode.Encode
+            available_formats = media_format.supportedFileFormats(encode_mode)
+            if QMediaFormat.FileFormat.MPEG4 in available_formats:
+                media_format.setFileFormat(QMediaFormat.FileFormat.MPEG4)
+                if QMediaFormat.AudioCodec.AAC in media_format.supportedAudioCodecs(encode_mode):
+                    media_format.setAudioCodec(QMediaFormat.AudioCodec.AAC)
+                extension = ".m4a"
+            else:
+                media_format.setFileFormat(QMediaFormat.FileFormat.Wave)
+                extension = ".wav"
+            self.voice_recorder.setMediaFormat(media_format)
+        except Exception:
+            extension = ".m4a"
+        self.voice_recording_path = recordings_dir / f"Nagranie_{stamp}{extension}"
+        self.voice_recorder.setOutputLocation(QUrl.fromLocalFile(str(self.voice_recording_path)))
+        if self.voice_player:
+            self.voice_player.stop()
+        self.voice_recorder.record()
+
+    def toggle_voice_recording_pause(self):
+        if not self.voice_recorder:
+            return
+        state = self.voice_recorder.recorderState()
+        if state == QMediaRecorder.RecorderState.RecordingState:
+            self.voice_recorder.pause()
+        elif state == QMediaRecorder.RecorderState.PausedState:
+            self.voice_recorder.record()
+
+    def stop_voice_recording(self, silent=False):
+        if not self.voice_recorder:
+            return
+        if self.voice_recorder.recorderState() != QMediaRecorder.RecorderState.StoppedState:
+            self.voice_recorder.stop()
+            QTimer.singleShot(350, self.refresh_voice_recordings)
+        if silent and self.voice_player:
+            self.voice_player.stop()
+
+    def update_voice_duration(self, milliseconds):
+        seconds = max(0, int(milliseconds // 1000))
+        hours, remainder = divmod(seconds, 3600)
+        minutes, seconds = divmod(remainder, 60)
+        self.voice_duration_label.setText(
+            f"{hours:02}:{minutes:02}:{seconds:02}" if hours else f"{minutes:02}:{seconds:02}"
+        )
+
+    def update_voice_recorder_state(self, state):
+        if not self.voice_recorder:
+            return
+        recording = state == QMediaRecorder.RecorderState.RecordingState
+        paused = state == QMediaRecorder.RecorderState.PausedState
+        self.voice_record_button.setEnabled(not recording and not paused)
+        self.voice_pause_button.setEnabled(recording or paused)
+        self.voice_pause_button.setText("Wznów" if paused else "Pauza")
+        self.voice_stop_button.setEnabled(recording or paused)
+        if recording:
+            self.voice_status.setText("Nagrywanie…")
+        elif paused:
+            self.voice_status.setText("Nagrywanie wstrzymane")
+        elif self.voice_recording_path:
+            self.voice_status.setText("Nagranie zapisane w folderze Nagrania")
+            self.voice_duration_label.setText("00:00")
+            QTimer.singleShot(350, self.refresh_voice_recordings)
+        else:
+            self.voice_status.setText("Gotowy do nagrywania")
+
+    def voice_recorder_error(self, _error, message):
+        self.voice_status.setText(f"Błąd nagrywania: {message}")
+        if self.voice_record_button:
+            self.voice_record_button.setEnabled(True)
+        self.voice_pause_button.setEnabled(False)
+        self.voice_stop_button.setEnabled(False)
+
+    def refresh_voice_recordings(self):
+        if not hasattr(self, "voice_recordings_list"):
+            return
+        self.voice_recordings_list.clear()
+        recordings_dir = profile_user_directories(self.active_profile_id)["recordings"]
+        recordings_dir.mkdir(parents=True, exist_ok=True)
+        supported = {".m4a", ".wav", ".aac", ".mp3", ".flac", ".ogg"}
+        for path in sorted(recordings_dir.iterdir(), key=lambda item: item.stat().st_mtime, reverse=True):
+            if path.is_file() and path.suffix.lower() in supported:
+                item = QListWidgetItem(path.stem.replace("_", " "))
+                item.setData(Qt.ItemDataRole.UserRole, str(path))
+                self.voice_recordings_list.addItem(item)
+        if self.voice_recordings_list.count() == 0:
+            self.voice_recordings_list.addItem("Brak nagrań")
+
+    def update_voice_selection_controls(self, current, _previous=None):
+        selected = bool(current and current.data(Qt.ItemDataRole.UserRole))
+        if hasattr(self, "voice_play_button"):
+            self.voice_play_button.setEnabled(selected)
+            self.voice_delete_button.setEnabled(selected)
+
+    def play_selected_recording(self):
+        item = self.voice_recordings_list.currentItem()
+        path = item.data(Qt.ItemDataRole.UserRole) if item else None
+        if not path or not self.voice_player:
+            return
+        source = QUrl.fromLocalFile(path)
+        if self.voice_player.source() == source and self.voice_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+            self.voice_player.pause()
+        else:
+            self.voice_player.setSource(source)
+            self.voice_player.play()
+
+    def update_voice_playback_state(self, state):
+        if not hasattr(self, "voice_play_button"):
+            return
+        playing = state == QMediaPlayer.PlaybackState.PlayingState
+        self.voice_play_button.setText("❚❚  Pauza" if playing else "▶  Odtwórz")
+
+    def voice_player_error(self, _error, message):
+        self.voice_status.setText(f"Nie można odtworzyć nagrania: {message}")
+
+    def delete_selected_recording(self):
+        item = self.voice_recordings_list.currentItem()
+        path = Path(item.data(Qt.ItemDataRole.UserRole)) if item and item.data(Qt.ItemDataRole.UserRole) else None
+        if not path or not path.is_file():
+            return
+        answer = QMessageBox.question(
+            self, "Usuń nagranie", f"Czy usunąć nagranie „{path.name}”?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            QMessageBox.StandardButton.No,
+        )
+        if answer == QMessageBox.StandardButton.Yes:
+            if self.voice_player and self.voice_player.source() == QUrl.fromLocalFile(str(path)):
+                self.voice_player.stop()
+                self.voice_player.setSource(QUrl())
+            try:
+                path.unlink()
+            except OSError as error:
+                QMessageBox.warning(self, "Usuń nagranie", f"Nie udało się usunąć pliku: {error}")
+            self.refresh_voice_recordings()
 
     def start_camera(self):
         if not CAMERA_AVAILABLE:
@@ -5521,6 +5765,10 @@ class MiniOS(QMainWindow):
 
     def show_page(self,name):
         if name not in self.pages: return
+        if self.current_app == "voice_recorder" and name != "voice_recorder":
+            self.stop_voice_recording(silent=True)
+            if self.voice_player:
+                self.voice_player.stop()
         if self.current_app == "settings" and name in {"home", "start_menu"}:
             self.save_settings(silent=True)
         self.apply_language()
@@ -5533,6 +5781,7 @@ class MiniOS(QMainWindow):
         if name == "camera": pass
         if name == "gallery": self.refresh_gallery()
         if name == "files": self.refresh_files()
+        if name == "voice_recorder": self.refresh_voice_recordings()
         self.showFullScreen()
 
     def resizeEvent(self, event):
